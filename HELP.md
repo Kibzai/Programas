@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ayuda!
-permalink: /help/
+permalink: /ayuda/
 ---
 
 # Ayuda!
@@ -10,7 +10,7 @@ Code Block:
 
 ```bash
 # Cómo hacer links en Github Pages (HELP.md):
-# [Ayuda!](https://kibzai.github.io/Programas/help/)
+# [Ayuda!](https://kibzai.github.io/Programas/ayuda/)
 ```
 [Manual para sobrevivir - Android App](https://play.google.com/store/apps/details?id=org.ligi.survivalmanual)
 

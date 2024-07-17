@@ -7,7 +7,7 @@ title: Protocolos & Programas
 Lorem
 
 ---
-![Cables_internet_cpus_programming_languajes](https://github.com/Kibzai/Programas/assets/x/y)
+![Internet_cpus_programming_languajes](https://github.com/Kibzai/Programas/assets/bg.png)
 
 ---
 
@@ -15,8 +15,8 @@ Lorem
 
 Más información, ayuda y configuraciones para crear, hackear y divertirse:
 
-- [Ayuda](help/): Ayuda Universal
-- [Fun](fun/): Creación y diversión.
+- [Ayuda](ayuda/): Ayuda Universal
+- [Fun](diversion/): Creación y diversión.
 
 ---
 
