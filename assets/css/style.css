@@ -66,7 +66,6 @@ body.dark-mode code {
     border-radius: 5px;
 }
 
-
 /* styles.css */
 
 .accordion {
@@ -93,6 +92,7 @@ body.dark-mode code {
     text-align: left;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 .accordion-header:hover {
@@ -100,11 +100,13 @@ body.dark-mode code {
 }
 
 .accordion-content {
-    display: none;
-    padding: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
     background-color: white;
 }
 
 .accordion-content p {
     margin: 0;
+    padding: 15px;
 }

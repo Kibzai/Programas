@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 });
+// script.js
 
 document.addEventListener("DOMContentLoaded", function() {
   const headers = document.querySelectorAll(".accordion-header");
@@ -48,18 +49,18 @@ document.addEventListener("DOMContentLoaded", function() {
           // Toggle the active class to the header
           this.classList.toggle("active");
 
-          // Toggle the content display
-          if (content.style.display === "block") {
-              content.style.display = "none";
+          // Smooth transition for the content display
+          if (content.style.maxHeight) {
+              content.style.maxHeight = null;
           } else {
-              content.style.display = "block";
+              content.style.maxHeight = content.scrollHeight + "px";
           }
 
-          
+          // Optionally, collapse other content sections if needed
           headers.forEach(otherHeader => {
               if (otherHeader !== this) {
                   otherHeader.classList.remove("active");
-                  otherHeader.nextElementSibling.style.display = "none";
+                  otherHeader.nextElementSibling.style.maxHeight = null;
               }
           });
       });
