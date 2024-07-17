@@ -20,16 +20,40 @@ Más información, ayuda y configuraciones para crear, hackear y divertirse:
 
 ---
 
-## WWW - World Wide Web
-
-### Herramientas
-
+<div class="accordion">
+        <div class="accordion-item">
+            <button class="accordion-header">Section 1</button>
+            <div class="accordion-content">
+                <p>
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
 - [DuckDuckGo](https://www.duckduckgo.com): Un motor de búsqueda que prioriza la privacidad de los usuarios, no rastrea ni almacena información personal de las búsquedas.
 - [Stack Overflow](https://stackoverflow.com): Una comunidad de programadores donde puedes hacer preguntas y encontrar respuestas a problemas de codificación. 
 - [Google](https://www.google.com): Google es una herramienta esencial para cualquier programador. Los principiantes pueden usarlo para buscar tutoriales de programación, recursos, foros y respuestas a problemas de codificación específicos.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-header">Section 2</button>
+            <div class="accordion-content">
+                <p>This is the content of section 2.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-header">Section 3</button>
+            <div class="accordion-content">
+                <p>This is the content of section 3.</p>
+            </div>
+        </div>
+    </div>
+
+
+## WWW - World Wide Web
+
+### Herramientas
+
+
 
 - https://app.getpocket.com/
 - https://my.bible.com/moments

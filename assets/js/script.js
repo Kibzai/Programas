@@ -37,3 +37,31 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const headers = document.querySelectorAll(".accordion-header");
+
+  headers.forEach(header => {
+      header.addEventListener("click", function() {
+          const content = this.nextElementSibling;
+
+          // Toggle the active class to the header
+          this.classList.toggle("active");
+
+          // Toggle the content display
+          if (content.style.display === "block") {
+              content.style.display = "none";
+          } else {
+              content.style.display = "block";
+          }
+
+          
+          headers.forEach(otherHeader => {
+              if (otherHeader !== this) {
+                  otherHeader.classList.remove("active");
+                  otherHeader.nextElementSibling.style.display = "none";
+              }
+          });
+      });
+  });
+});

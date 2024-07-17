@@ -65,3 +65,46 @@ body.dark-mode code {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+
+/* styles.css */
+
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-item:first-child {
+    border-top: none;
+}
+
+.accordion-header {
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accordion-header:hover {
+    background-color: #e7e7e7;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: white;
+}
+
+.accordion-content p {
+    margin: 0;
+}
