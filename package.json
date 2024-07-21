@@ -1,0 +1,10 @@
+{
+    "name": "mi-sitio-jekyll",
+    "version": "1.0.0",
+    "description": "Un sitio Jekyll simple",
+    "scripts": {
+    "dev": "./scripts/dev.sh",
+    "build": "./scripts/build.sh"
+    },
+    "dependencies": {}
+}

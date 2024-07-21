@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: info
 title: Ayuda!
 permalink: /ayuda/
 ---

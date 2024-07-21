@@ -5,9 +5,10 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script src="{{ '/assets/js/ui.js' | relative_url }}"></script>
+  <!-- <script src="{{ '/assets/js/ui.js' | relative_url }}"></script> -->
   <script src="{{ '/assets/js/programs.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dashboard.js' | relative_url }}"></script>
   <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
 </head>
 <body class="dark-mode">
@@ -15,6 +16,8 @@
     <div class="content">
         {{ content }}
     </div>
+    <h2>Dashboard</h2>
+    <div id="info"></div>
     <footer>
       <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>

@@ -1,99 +1,119 @@
-# Programas
-Programas &amp; Herramientas
-
-Browser Info Dashboard
-
-programas útiles para proyectos de programación
-
-
-- [Página en vivo](https://kibzai.github.io/Programas/)
-- [Página de ayuda](https://kibzai.github.io/Programas/HELP)
+---
+layout: info
+title: Léeme!
+date: 2024-07-20
+permalink: /readme/
+---
+# Protocolos
+<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+Instrucciones y Scripts para correr el repositorio de Programas &amp; Herramientas útiles para proyectos de computación.
 
 ## Inicio
+
+Asegúrate de que te encuentras en el ambiente correcto: **Desarrollo** o **Producción**.
+
+- [Ambiente de **Desarrollo**](/)
+- [Ambiente de **Producción**](https://kibzai.github.io/Programas/)
 
 ``` sh
 # Internet: [(< "@http(s)://\\ `%20`  para escribir espacios en direcciones." >)]
 ```
-## Local Setup
+## Estructura de Archivos y Configuraciones
 
-Server
+Este es un sitio Jekyll simple configurado para manejar diferentes entornos (desarrollo y producción) utilizando npm y scripts de shell.
 
-Make sure you have the following installed on your system:
+## Configuración Inicial
 
-- Ruby (check with `ruby -v`)
-- Bundler gem (check with `bundle -v`)
-
-## Getting Started
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
-    ```
-
-2. **Create a `Gemfile`** in the root directory of your project:
+1. **Crear un `Gemfile`** en la raíz del proyecto:
 
     ```ruby
-    # Gemfile
     source "https://rubygems.org"
-
     gem "jekyll", "~> 4.2.0"
     gem "webrick", "~> 1.7"
     ```
 
-3. **Install Bundler**:
+2. **Instalar Bundler**:
 
     ```bash
     gem install bundler
     ```
 
-4. **Install the gems**:
+3. **Instalar las gemas**:
 
     ```bash
     bundle install
     ```
 
-5. **Build and serve the site locally**:
+4. **Crear Archivos de Configuración para Entornos Específicos**:
+
+    - **Configuración Común** (`_config.yml`)
+    - **Configuración de Desarrollo** (`_config_dev.yml`)
+    - **Configuración de Producción** (`_config_prod.yml`)
+
+5. **Crear Scripts de Shell para Entornos Específicos**:
+
+    - **Script de Desarrollo** (`scripts/dev.sh`)
+    - **Script de Producción** (`scripts/build.sh`)
+
+6. **Hacer los Scripts Ejecutables**:
 
     ```bash
-    bundle exec jekyll serve
+    chmod +x scripts/dev.sh
+    chmod +x scripts/build.sh
     ```
 
-6. **View your site**: Open your browser and go to `http://localhost:4000`.
+7. **Crear `package.json` para Manejo de Scripts**:
 
-## Additional Commands
+    ```json
+    {
+    "name": "mi-sitio-jekyll",
+    "version": "1.0.0",
+    "description": "Un sitio Jekyll simple",
+    "scripts": {
+    "dev": "./scripts/dev.sh",
+    "build": "./scripts/build.sh"
+    },
+    "dependencies": {}
+    }
+    ```
 
-- **Build the site without serving**:
+8. **Instalar Jekyll Localmente** (opcional pero recomendado):
 
     ```bash
-    bundle exec jekyll build
+    npm install jekyll
     ```
 
-- **Clean the site** (removes the `_site` directory):
+## Comandos Adicionales
 
-    ```bash
-    bundle exec jekyll clean
-    ```
-
-
-
-Ahora trenemos instaladas las herramientas del Laboratorio!
-- **[Laboratorio: Protocolo](https://localhost:3000)** - `https://localhost:3000`
-
-``` bash
-# Diversi[on]
-Hola! Como andas? 
-
-rm -rf node_modules/ && rm -rf package-lock.json
-
-npm install --force
+- **Construir el sitio sin servirlo**:
+```bash
+bundle exec jekyll build
 ```
 
+- **Limpiar el sitio** (elimina el directorio `_site`):
+```bash
+bundle exec jekyll clean
+```
 
+## Uso de Scripts con npm
+
+- **Para desarrollo**:
+```bash
+npm run dev
+```
+
+- **Para construir el sitio para producción**:
+```bash
+npm run build
+```
+
+## Diversión Extra
+Para borrar `node_modules` y `package-lock.json` y reinstalar dependencias:
+```bash
+rm -rf node_modules/ && rm -rf package-lock.json
+npm install --force
+```
+Para generar estilos de sintaxis:
 ``` bash
 rougify style monokai.sublime > assets/css/syntax.css
 ```
-
-
-- [Ayuda!: Buscas ¿¡Ayuda!?](https://github.com/Kibzai/Programs/blob/main/HELP.md)

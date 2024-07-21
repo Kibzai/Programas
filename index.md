@@ -1,26 +1,16 @@
 ---
 layout: default
-title: Protocolos & Programas
+title: Programas &amp; Herramientas
 ---
-# Protocolos & Programas, Experiments
+# ¡Configuraciones!
 
-Lorem
-
----
-
-## Browsers
+## Principales Herramientas
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
 - [DuckDuckGo](https://www.duckduckgo.com): Un motor de búsqueda que prioriza la privacidad de los usuarios, no rastrea ni almacena información personal de las búsquedas.
 - [Stack Overflow](https://stackoverflow.com): Una comunidad de programadores donde puedes hacer preguntas y encontrar respuestas a problemas de codificación. 
 - [Google](https://www.google.com): Google es una herramienta esencial para cualquier programador. Los principiantes pueden usarlo para buscar tutoriales de programación, recursos, foros y respuestas a problemas de codificación específicos.
-
-## WWW - World Wide Web
-
-### Herramientas
-
-
 
 - https://app.getpocket.com/
 - https://my.bible.com/moments
@@ -34,16 +24,11 @@ Lorem
 - https://multistre.am
 - https://www.speechchat.com/
 
-
-
+## Programas
 
 ### Machine Learning
 
 - [Chat GPT](https://chat.openai.com): Modelo de Lenguaje de Aprendizaje Automático.
-
----
-
-## Programas
 
 - [Git](https://git-scm.com/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
 - [Git for Windows](https://gitforwindows.org/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
@@ -141,6 +126,8 @@ Lorem
 
 ---
 
+Aprende!
+
 ## Lenguajes & Tecnologías
 
 - [Python](https://www.python.org/): Lenguaje de programación versátil y fácil de aprender, muy utilizado en desarrollo web, ciencia de datos y automatización.
@@ -223,39 +210,25 @@ Lorem
 - [Java VisualVM](https://visualvm.github.io/): Una herramienta de monitoreo, troubleshooting y profiling todo-en-uno para la máquina virtual Java (JVM) que integra varias herramientas de línea de comando JDK en una interfaz gráfica de usuario.
 - [Mockito](https://site.mockito.org/): Un popular framework de mocking para pruebas unitarias en aplicaciones Java, que permite crear y configurar objetos mock de manera sencilla y legible.
 
----
-## Configuraciones
+## Protocolos
 
-Más información, ayuda y configuraciones para crear, hackear y divertirse:
+Más información, ayuda y protocolos para crear, hackear y divertirse:
 
+- [Léeme](readme/): Protocolos
 - [Ayuda](ayuda/): Ayuda Universal
 - [Fun](diversion/): Creación y diversión.
 
 ---
+
+Más!
+
 ## Contacto
 
-- Kib: [hecho con pasión](https://github.com/Kibzai/)!
+- [Kib](https://github.com/Kibzai/): hecho con pasión!
 
-### ![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+
 ---
+![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+Gracias, Muchas Gracias!
 
-<canvas height="720" width="720"></canvas>
-<div class="settings">
-  <div class="inputs">
-    <div class="color">
-      <input type="color" class="colorinput c1" />
-      <input type="color" class="colorinput c2" />
-      <input type="color" class="colorinput c3" />
-    </div>
-    <div class="text">
-      <input type="text" class="textinput z1" />
-      <input type="text" class="textinput z2" />
-      <input type="text" class="textinput z3" />
-    </div>
-  </div>
-  <div class="file">
-    <div class="info">Custom BW image: </div>
-    <input type="file" class="fileinput f1" />
-  </div>
-  <button class="save">Guardar</button>
-</div>
+[¿¡Ayuda!?](https://github.com/Kibzai/Programs/blob/main/HELP.md)
