@@ -7,47 +7,14 @@ title: Protocolos & Programas
 Lorem
 
 ---
-![Internet_cpus_programming_languajes](https://github.com/Kibzai/Programas/assets/bg.png)
 
----
-
-## Configuraciones
-
-Más información, ayuda y configuraciones para crear, hackear y divertirse:
-
-- [Ayuda](ayuda/): Ayuda Universal
-- [Fun](diversion/): Creación y diversión.
-
----
-
-<div class="accordion">
-        <div class="accordion-item">
-            <button class="accordion-header">Section 1</button>
-            <div class="accordion-content">
-                <p>
+## Browsers
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
 - [DuckDuckGo](https://www.duckduckgo.com): Un motor de búsqueda que prioriza la privacidad de los usuarios, no rastrea ni almacena información personal de las búsquedas.
 - [Stack Overflow](https://stackoverflow.com): Una comunidad de programadores donde puedes hacer preguntas y encontrar respuestas a problemas de codificación. 
 - [Google](https://www.google.com): Google es una herramienta esencial para cualquier programador. Los principiantes pueden usarlo para buscar tutoriales de programación, recursos, foros y respuestas a problemas de codificación específicos.
-                </p>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <button class="accordion-header">Section 2</button>
-            <div class="accordion-content">
-                <p>This is the content of section 2.</p>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <button class="accordion-header">Section 3</button>
-            <div class="accordion-content">
-                <p>This is the content of section 3.</p>
-            </div>
-        </div>
-    </div>
-
 
 ## WWW - World Wide Web
 
@@ -257,6 +224,38 @@ Más información, ayuda y configuraciones para crear, hackear y divertirse:
 - [Mockito](https://site.mockito.org/): Un popular framework de mocking para pruebas unitarias en aplicaciones Java, que permite crear y configurar objetos mock de manera sencilla y legible.
 
 ---
+## Configuraciones
+
+Más información, ayuda y configuraciones para crear, hackear y divertirse:
+
+- [Ayuda](ayuda/): Ayuda Universal
+- [Fun](diversion/): Creación y diversión.
+
+---
 ## Contacto
 
 - Kib: [hecho con pasión](https://github.com/Kibzai/)!
+
+### ![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+---
+
+<canvas height="720" width="720"></canvas>
+<div class="settings">
+  <div class="inputs">
+    <div class="color">
+      <input type="color" class="colorinput c1" />
+      <input type="color" class="colorinput c2" />
+      <input type="color" class="colorinput c3" />
+    </div>
+    <div class="text">
+      <input type="text" class="textinput z1" />
+      <input type="text" class="textinput z2" />
+      <input type="text" class="textinput z3" />
+    </div>
+  </div>
+  <div class="file">
+    <div class="info">Custom BW image: </div>
+    <input type="file" class="fileinput f1" />
+  </div>
+  <button class="save">Guardar</button>
+</div>

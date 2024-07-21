@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    var links = document.querySelectorAll('a');
+    let links = document.querySelectorAll('a');
 
     // Loop through each link
-    for (var i = 0; i < links.length; i++) {
+    for (let i = 0; i < links.length; i++) {
       // Check if the link already has a target attribute
       if (!links[i].hasAttribute('target')) {
         // Set the target attribute to '_blank' to open in a new tab
@@ -38,31 +38,46 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 // script.js
-
 document.addEventListener("DOMContentLoaded", function() {
-  const headers = document.querySelectorAll(".accordion-header");
+    const headers = document.querySelectorAll("h2");
 
-  headers.forEach(header => {
-      header.addEventListener("click", function() {
-          const content = this.nextElementSibling;
+    headers.forEach(header => {
+        // Wrap content between this header and the next header in a div
+        let content = document.createElement('div');
+        content.classList.add('accordion-content');
 
-          // Toggle the active class to the header
-          this.classList.toggle("active");
+        let sibling = header.nextElementSibling;
+        while (sibling && sibling.tagName !== 'H2') {
+            let nextSibling = sibling.nextElementSibling;
+            content.appendChild(sibling);
+            sibling = nextSibling;
+        }
 
-          // Smooth transition for the content display
-          if (content.style.maxHeight) {
-              content.style.maxHeight = null;
-          } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-          }
+        // Insert the content div after the header
+        header.insertAdjacentElement('afterend', content);
 
-          // Optionally, collapse other content sections if needed
-          headers.forEach(otherHeader => {
-              if (otherHeader !== this) {
-                  otherHeader.classList.remove("active");
-                  otherHeader.nextElementSibling.style.maxHeight = null;
-              }
-          });
-      });
-  });
+        // Add the accordion-header class to the header
+        header.classList.add('accordion-header');
+
+        // Add click event to the header
+        header.addEventListener("click", function() {
+            // Toggle the active class to the header
+            this.classList.toggle("active");
+
+            // Smooth transition for the content display
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+
+            // Optionally, collapse other content sections if needed
+            headers.forEach(otherHeader => {
+                if (otherHeader !== this) {
+                    otherHeader.classList.remove("active");
+                    otherHeader.nextElementSibling.style.maxHeight = null;
+                }
+            });
+        });
+    });
 });

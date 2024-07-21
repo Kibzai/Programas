@@ -1,4 +1,4 @@
-/* Base Dark Mode Styles */
+  /* Base Dark Mode Styles */
 body.dark-mode {
     background-color: #000;
     font-family: 'Courier New', Courier, monospace;
@@ -67,46 +67,107 @@ body.dark-mode code {
 }
 
 /* styles.css */
-
-.accordion {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    max-width: 400px;
-    margin: 20px auto;
-}
-
-.accordion-item {
-    border-top: 1px solid #ccc;
-}
-
-.accordion-item:first-child {
-    border-top: none;
-}
-
 .accordion-header {
-    background-color: #f7f7f7;
-    border: none;
-    outline: none;
-    padding: 15px;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+  background-color: #404040;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  margin: 0;
 }
 
 .accordion-header:hover {
-    background-color: #e7e7e7;
+  background-color: #2b2b2b;
 }
 
 .accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
 .accordion-content p {
-    margin: 0;
-    padding: 15px;
+  margin: 0;
+  padding: 15px;
 }
+
+img{
+  max-width: 100%;
+}
+  .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @font-face {
+    font-family: 'CircularSp';
+    src: url('../fonts/CircularSpotifyText-Black.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  canvas {
+    margin: auto;
+    width: 360px;
+    height: 360px;
+    letter-spacing: -2px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: 'CircularSp', sans-serif;
+  }
+  
+  .inputs {
+    display: flex;
+    width: 360px;
+    padding: 0 1rem;
+  }
+  
+  .color, .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .color {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    padding-right: 1rem;
+  }
+  
+  .colorinput {
+    flex: 1;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .textinput {
+    font-size: 1.5rem;
+    padding: .5rem;
+  }
+  
+  .file {
+    width: 360px;
+    font-family: sans-serif;
+    padding: 1rem 0;
+  }
+  
+  .file .info {
+    font-size: 1.2rem;
+  }
+  
+  .fileinput {
+    padding-top: .5rem;
+    font-size: 1rem;
+  }
+  
+  .save {
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem;
+    width: 360px;
+  }
