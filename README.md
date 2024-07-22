@@ -1,6 +1,7 @@
 ---
 layout: info
 title: Léeme!
+description: Léeme de cómo comenzar tu propio proyecto.
 date: 2024-07-20
 permalink: /readme/
 ---

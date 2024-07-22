@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Programas &amp; Herramientas
+description: Inventemos.
 ---
 # ¡Configuraciones!
 

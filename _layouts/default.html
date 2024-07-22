@@ -8,7 +8,25 @@
   <script src="{{ '/assets/js/ui.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/programs.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ '/assets/img/bg.jpg' | relative_url }}">
+  <meta property="og:url" content="{{ site.url | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ page.title }}">
+  
+  <!-- Twitter Card meta tags (optional) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ '/assets/img/bg.jpg' | relative_url }}">
+  
+  <!-- Favicon meta tags -->
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
+  
 </head>
 <body class="dark-mode">
   <h1><a href="/">Kib</a> - {{ page.title }}</h1>
