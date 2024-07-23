@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <script src="{{ '/assets/js/ui.js' | relative_url }}"></script>
   <!-- <script src="{{ '/assets/js/programs.js' | relative_url }}"></script> -->
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
@@ -28,7 +27,15 @@
   <link rel="icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
   
 </head>
-<body class="dark-mode">
+<body class="dark-mode{% if page.class %} {{ page.class }}{% endif %}">
+  {% include nav.html %}
+  {% if page.class == "extra-cover" %}   
+  <div class="overlay"></div>
+  <div class="welcome-text">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.subtitle }}</p>
+  </div>
+  {% endif %}
   <h1><a href="{{ '/' | relative_url }}">Kib</a> - {{ page.title }}</h1>
   <p>{{ page.description }}</p>
     <div class="content">

@@ -3,6 +3,7 @@ layout: default
 title: Programas &amp; Herramientas
 description: Inventemos.
 cover: cover
+class: extra-cover
 ---
 # ¡Configuraciones!
 

@@ -1,12 +1,17 @@
-# _config.yml for Jekyll site with custom configurations
 
-# Theme settings
-# theme: jekyll-theme-minimal  # Use the minimal theme
-# @import "{{ site.theme }}";  # Import the theme's settings
+# _config.yml
 
-# Site settings
-title: Programas & Aplicaciones          # Site title
-description: Configuraciones, Programas & Aplicaciones  # Site description
+# Configuración del sitio
+title: Programas & Aplicaciones
+description: Configuraciones, Programas & Aplicaciones
+
+# Configuración de compilación
+sass:
+  style: compressed
+
+# Plugins de Jekyll
+plugins:
+  - jekyll-sass-converter
 
 # Build settings
 lsi: false             # Latent Semantic Indexing for related posts, set to false for faster builds
@@ -19,9 +24,7 @@ highlighter: rouge     # Syntax highlighter
 gist:
   noscript: false      # Allows Gists to work without JavaScript
 
-# Markdown processing with Kramdown
+# Configuración de Markdown
 kramdown:
-  math_engine: mathjax       # Use MathJax for math rendering
-  syntax_highlighter: rouge  # Syntax highlighting with Rouge
-
-# Add additional custom configurations below
+  math_engine: mathjax
+  syntax_highlighter: rouge
