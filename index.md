@@ -1,9 +1,14 @@
 ---
 layout: default
-title: Programas &amp; Herramientas
+title: Programas & Herramientas
 description: Inventemos.
+type: scripts
 cover: cover
 class: extra-cover
+tags: [configuraciones, herramientas, programas]
+author:
+  name: Kib
+  email: kib@kibsaim.life
 ---
 # ¡Configuraciones!
 
@@ -221,6 +226,8 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Ayuda](ayuda/): Ayuda Universal
 - [Fun](diversion/): Creación y diversión.
 
+![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+
 ---
 
 Más!
@@ -231,7 +238,7 @@ Más!
 
 
 ---
-![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+
 Gracias, Muchas Gracias!
 
 [¿¡Ayuda!?](https://github.com/Kibzai/Programs/blob/main/HELP.md)

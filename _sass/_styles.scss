@@ -75,24 +75,15 @@ body.dark-mode a {
 body.extra-cover {
   justify-content: center;
   align-items: center;
-  background: url("{{ site.baseurl }}/assets/img/cover.jpg") no-repeat center center/cover;
+  background: url("#{$baseurl}/assets/img/cover.jpg") no-repeat center fixed;
   position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
 }
 
 .welcome-text {
   position: relative;
   text-align: center;
   z-index: 2;
+  padding: 15% 3rem 5rem 3rem;
 }
 
 .welcome-text h1 {
@@ -151,6 +142,7 @@ body.extra-cover {
 .content {
   flex: 1;
   padding: 20px;
+  margin: 2.5rem;
 }
 
 /* Media Query para Pantallas Pequeñas */
@@ -195,7 +187,7 @@ body.extra-cover {
   padding: 15px;
   text-align: left;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.618s ease;
   color: white;
   margin: 0;
 }
@@ -207,7 +199,7 @@ body.extra-cover {
 .accordion-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.618s ease;
 }
 
 .accordion-content p {

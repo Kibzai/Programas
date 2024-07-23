@@ -2,8 +2,9 @@
 layout: info
 title: Ayuda!
 description: Ayuda en muchos sentidos.
-permalink: /ayuda/
+type: 
 cover: cover
+permalink: /ayuda/
 ---
 
 # Ayuda!

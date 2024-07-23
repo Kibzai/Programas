@@ -1,48 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <script src="{{ '/assets/js/ui.js' | relative_url }}"></script>
-  <!-- <script src="{{ '/assets/js/programs.js' | relative_url }}"></script> -->
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-  
-  <!-- Open Graph meta tags -->
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
-  <meta property="og:url" content="{{ site.url | relative_url }}">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="{{ page.title }}">
-  
-  <!-- Twitter Card meta tags (optional) -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
-  
-  <!-- Favicon meta tags -->
-  <link rel="icon" type="image/x-icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
-  <link rel="icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
-  
-</head>
+{% include head.html %}
 <body class="dark-mode{% if page.class %} {{ page.class }}{% endif %}">
   {% include nav.html %}
-  {% if page.class == "extra-cover" %}   
-  <div class="overlay"></div>
-  <div class="welcome-text">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.subtitle }}</p>
-  </div>
+  {% if page.class == "extra-cover" %}
+    {% include cover.html %}
   {% endif %}
-  <h1><a href="{{ '/' | relative_url }}">Kib</a> - {{ page.title }}</h1>
-  <p>{{ page.description }}</p>
-    <div class="content">
-        {{ content }}
-    </div>
-    <footer>
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  <div class="content">
+    <h1><a href="{{ '/' | relative_url }}">Kib</a> - {{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    {{ content }}
+    {% if page.type == "scripts" %}
+      {% include playlist.html %}
+    {% endif %}
+  </div>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
 </body>
+
 </html>

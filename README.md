@@ -1,10 +1,33 @@
 ---
 layout: info
 title: Léeme!
-description: Léeme de cómo comenzar tu propio proyecto.
+description: Acerca de cómo comenzar tu propio proyecto.
 date: 2024-07-20
-cover: cover
+type: 
 permalink: /readme/
+cover: cover
+class: extra-cover
+tags: [configuraciones, herramientas, programas]
+author:
+  name: Kib
+  email: kib@kibsaim.life
+nested_data:
+  key1: value1
+  key2: value2
+array_of_hashes:
+  - name: Herramienta1
+    description: Una herramienta útil
+  - name: Herramienta2
+    description: Otra herramienta útil
+json_data: |
+  {
+    "key1": "value1",
+    "key2": "value2",
+    "array": [
+      "element1",
+      "element2"
+    ]
+  }
 ---
 # Protocolos
 <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>

@@ -1,0 +1,48 @@
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+  
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+  
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/scripts.js' | absolute_url }}" defer></script>
+    {% if page.layout == "default" %}
+    <script src="{{ '/assets/js/ui.js' | absolute_url }}" defer></script>
+      {% if page.type == "scripts" %}
+      <script src="{{ '/assets/js/programs.js' | absolute_url }}" defer></script>
+      {% endif %}
+    {% endif %}
+
+    
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    
+  
+    <!-- Twitter Card meta tags (optional) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
+   
+    <!-- Favicon meta tags -->
+    <link rel="icon" type="image/x-icon" href="{{ 'assets/favicons/favicon.ico' | relative_url }}">
+    <link rel="icon" href="{{ 'assets/favicons/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/favicons/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicons/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicons/favicon-16x16.png' | relative_url }}">
+  
+    <!-- Manifest tag -->
+    <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}">
+  
+    <!-- Additional meta tags -->
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="Programas, Aplicaciones, {{ site.keywords | join: ', ' }}">
+  </head>

@@ -1,3 +1,10 @@
-// Importar estilos desde la carpeta _sass
-@import "../../_sass/style";
-@import "../../_sass/syntax";
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+$imgcover: "{{ page.cover }}";
+
+
+// Importar los estilos desde la carpeta _sass
+@import "styles";
+@import "syntax";
