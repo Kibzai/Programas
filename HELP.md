@@ -3,6 +3,7 @@ layout: info
 title: Ayuda!
 description: Ayuda en muchos sentidos.
 permalink: /ayuda/
+cover: cover
 ---
 
 # Ayuda!
