@@ -12,7 +12,7 @@
   <!-- Open Graph meta tags -->
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/{{ page.cover }}.jpg' }}"> <!-- REQUIERE: URL completa -->
+  <meta property="og:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
   <meta property="og:url" content="{{ site.url | relative_url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ page.title }}">
@@ -21,7 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/{{ page.cover }}.jpg' }}"> <!-- REQUIERE: URL completa -->
+  <meta name="twitter:image" content="{{ 'https://Kibzai.github.io/Programas/assets/img/' | append: page.cover | append: '.jpg' }}"> <!-- REQUIERE: URL completa -->
   
   <!-- Favicon meta tags -->
   <link rel="icon" type="image/x-icon" href="{{ '/favicon/favicon.ico' | relative_url }}">
@@ -30,6 +30,7 @@
 </head>
 <body class="dark-mode">
   <h1><a href="{{ '/' | relative_url }}">Kib</a> - {{ page.title }}</h1>
+  <p>{{ page.cover }}.jpg</p>
     <div class="content">
         {{ content }}
     </div>
