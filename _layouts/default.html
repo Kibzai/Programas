@@ -13,6 +13,9 @@
     {% if page.type == "scripts" %}
       {% include playlist.html %}
     {% endif %}
+    {% if page.type == "info" %}
+      {% include info.html %}
+    {% endif %}
   </div>
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>

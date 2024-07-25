@@ -2,6 +2,7 @@
 layout: info
 title: Ayuda!
 description: Ayuda en muchos sentidos.
+longDescription: Ayuda en todos los sentidos.
 type: 
 cover: cover
 permalink: /ayuda/

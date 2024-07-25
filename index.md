@@ -2,7 +2,8 @@
 layout: default
 title: Programas & Herramientas
 description: Inventemos.
-type: scripts
+longDescription: 
+type: 
 cover: cover
 class: extra-cover
 tags: [configuraciones, herramientas, programas]

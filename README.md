@@ -2,6 +2,7 @@
 layout: info
 title: Léeme!
 description: Acerca de cómo comenzar tu propio proyecto.
+longDescription: 
 date: 2024-07-20
 type: 
 permalink: /readme/
@@ -70,11 +71,9 @@ Este es un sitio Jekyll simple configurado para manejar diferentes entornos (des
     bundle install
     ```
 
-4. **Crear Archivos de Configuración para Entornos Específicos**:
+4. **k**:
 
-    - **Configuración Común** (`_config.yml`)
-    - **Configuración de Desarrollo** (`_config_dev.yml`)
-    - **Configuración de Producción** (`_config_prod.yml`)
+    - **x** (`scripts/install.sh`)
 
 5. **Crear Scripts de Shell para Entornos Específicos**:
 
@@ -82,31 +81,10 @@ Este es un sitio Jekyll simple configurado para manejar diferentes entornos (des
     - **Script de Producción** (`scripts/build.sh`)
 
 6. **Hacer los Scripts Ejecutables**:
-
+dentro de `scripts/`
     ```bash
     chmod +x scripts/dev.sh
     chmod +x scripts/build.sh
-    ```
-
-7. **Crear `package.json` para Manejo de Scripts**:
-
-    ```json
-    {
-    "name": "mi-sitio-jekyll",
-    "version": "1.0.0",
-    "description": "Un sitio Jekyll simple",
-    "scripts": {
-    "dev": "./scripts/dev.sh",
-    "build": "./scripts/build.sh"
-    },
-    "dependencies": {}
-    }
-    ```
-
-8. **Instalar Jekyll Localmente** (opcional pero recomendado):
-
-    ```bash
-    npm install jekyll
     ```
 
 ## Comandos Adicionales
@@ -121,6 +99,8 @@ bundle exec jekyll build
 bundle exec jekyll clean
 ```
 
+Love!
+<!-- 
 ## Uso de Scripts con npm
 
 - **Para desarrollo**:
@@ -133,13 +113,14 @@ npm run dev
 npm run build
 ```
 
-## Diversión Extra
 Para borrar `node_modules` y `package-lock.json` y reinstalar dependencias:
 ```bash
 rm -rf node_modules/ && rm -rf package-lock.json
 npm install --force
 ```
-Para generar estilos de sintaxis:
-``` bash
-rougify style monokai.sublime > assets/css/syntax.css
+
+## Diversión Extra
+```bash
+sh diversion.sh
 ```
+-->
