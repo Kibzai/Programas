@@ -69,27 +69,21 @@ function openFullscreen() {
 	}
 }
 function installApp() {
-    
-        // Prompt to install PWA
-        let deferredPrompt;
-		console.log('Starting Install');
-        window.addEventListener('beforeinstallprompt', (e) => {
-            e.preventDefault();
-            deferredPrompt = e;
-            document.getElementById('install-btn').style.display = 'block';
-		console.log('Install Button Visible');
+	let deferredPrompt;
+	window.addEventListener('beforeinstallprompt', (e) => {
+		e.preventDefault();
+		deferredPrompt = e;
+		const installBtn = document.getElementById('install-btn');
+		installBtn.style.display = 'block';
 
-
-            document.getElementById('install-btn').addEventListener('click', (e) => {
-                deferredPrompt.prompt();
-                deferredPrompt.userChoice.then((choiceResult) => {
-                    if (choiceResult.outcome === 'accepted') {
-                        console.log('User accepted the install prompt');
-                    } else {
-                        console.log('User dismissed the install prompt');
-                    }
-                    deferredPrompt = null;
-                });
-            });
-        });
+		installBtn.addEventListener('click', () => {
+			deferredPrompt.prompt();
+			deferredPrompt.userChoice.then((choiceResult) => {
+				console.log(choiceResult.outcome === 'accepted' ? 'User accepted the install prompt' : 'User dismissed the install prompt');
+				deferredPrompt = null;
+			});
+		});
+	});
 }
+
+installApp();
