@@ -5,7 +5,7 @@ self.addEventListener('install', (event) => {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/assets/css/style.css',
+                '/assets/css/main.css',
                 // Agrega aquí otros archivos que deseas cachear
             ]);
         })

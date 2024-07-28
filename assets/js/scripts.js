@@ -3,7 +3,8 @@
 // Registering Service Worker
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function() {
-		navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+		navigator.serviceWorker.register('/assets/js/service-worker.js').then(function(registration) {
+			installApp()
 			console.log('ServiceWorker registration successful with scope: ', registration.scope);
 		}, function(error) {
 			console.log('ServiceWorker registration failed: ', error);
@@ -67,22 +68,28 @@ function openFullscreen() {
 		elem.msRequestFullscreen();
 	}
 }
-// Prompt to install PWA
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-	e.preventDefault();
-	deferredPrompt = e;
-	document.getElementById('install-btn').style.display = 'block';
+function installApp() {
+    
+        // Prompt to install PWA
+        let deferredPrompt;
+		console.log('Starting Install');
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('install-btn').style.display = 'block';
+		console.log('Install Button Visible');
 
-	document.getElementById('install-btn').addEventListener('click', (e) => {
-		deferredPrompt.prompt();
-		deferredPrompt.userChoice.then((choiceResult) => {
-			if (choiceResult.outcome === 'accepted') {
-				console.log('User accepted the install prompt');
-			} else {
-				console.log('User dismissed the install prompt');
-			}
-			deferredPrompt = null;
-		});
-	});
-});
+
+            document.getElementById('install-btn').addEventListener('click', (e) => {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the install prompt');
+                    } else {
+                        console.log('User dismissed the install prompt');
+                    }
+                    deferredPrompt = null;
+                });
+            });
+        });
+}
