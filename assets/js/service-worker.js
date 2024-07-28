@@ -4,8 +4,8 @@ self.addEventListener('install', (event) => {
         caches.open('static-v1').then((cache) => {
             return cache.addAll([
                 '/',
-                '/index.html',
-                '/assets/css/main.css',
+                '/Programas/index.html',
+                '/Programas/assets/css/main.css',
                 // Agrega aquí otros archivos que deseas cachear
             ]);
         })
