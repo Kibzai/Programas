@@ -36,13 +36,18 @@ Instrucciones y Scripts para correr el repositorio de Programas &amp; Herramient
 
 ## Inicio
 
-Asegúrate de que te encuentras en el ambiente correcto: **Desarrollo** o **Producción**.
+Asegúrate de que te encuentras en el ambiente correcto: **App** o **Repositorio**.
 
-- [Ambiente de **Desarrollo**](/)
-- [Ambiente de **Producción**](https://kibzai.github.io/Programas/)
+- [**App** - Producción (Github Pages): https://kibzai.github.io/Programas/](https://kibzai.github.io/Programas/)
+  - [**Repositorio** - Código fuente del **Proyecto**: https://github.com/Kibzai/Programas](https://github.com/Kibzai/Programas)
 
-``` sh
-# Internet: [(< "@http(s)://\\ `%20`  para escribir espacios en direcciones." >)]
+Code Block:
+
+```bash
+# ``` Cómo hacer links en Github Pages (README.md) ```
+# [URL-Readme](https://kibzai.github.io/Programas/readme/)
+# Símbolos: [(<"@http(s)://\\">)]
+# `%20` para escribir espacios en direcciones.
 ```
 ## Estructura de Archivos y Configuraciones
 

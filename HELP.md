@@ -10,12 +10,6 @@ permalink: /ayuda/
 
 # Ayuda!
 
-Code Block:
-
-```bash
-# Cómo hacer links en Github Pages (HELP.md):
-# [Ayuda!](https://kibzai.github.io/Programas/ayuda/)
-```
 [Manual para sobrevivir - Android App](https://play.google.com/store/apps/details?id=org.ligi.survivalmanual)
 
 Si estás lidiando con situaciones de pánico o depresión, aquí tienes algunos consejos prácticos que podrían ser útiles:
