@@ -80,6 +80,7 @@
   </footer>
   
   <script>
+document.addEventListener('DOMContentLoaded', () => {
     // Registering Service Worker
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
@@ -112,6 +113,7 @@
     }
 
     installApp();
+    });
 </script>
 </body>
 </html>
