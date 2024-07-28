@@ -74,10 +74,44 @@
     {% endif %}
   </div>
   <footer>
-    <button onclick="installApp()">Instalar Aplicación</button><br>
+    <button id="install-btn" style="display: none;">Instalar Aplicación</button><br>
     <button onclick="openFullscreen()">Ir a Pantalla Completa</button><br>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
-</body>
+  
+  <script>
+    // Registering Service Worker
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/Programas/assets/js/service-worker.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(error) {
+                console.log('ServiceWorker registration failed: ', error);
+            });
+        });
+    }
 
+    function installApp() {
+      console.log('Install App: Start');
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            const installBtn = document.getElementById('install-btn');
+            if (installBtn) {
+                installBtn.style.display = 'block';
+                installBtn.addEventListener('click', () => {
+                    deferredPrompt.prompt();
+                    deferredPrompt.userChoice.then((choiceResult) => {
+                        console.log(choiceResult.outcome === 'accepted' ? 'User accepted the install prompt' : 'User dismissed the install prompt');
+                        deferredPrompt = null;
+                    });
+                });
+            }
+        });
+    }
+
+    installApp();
+</script>
+</body>
 </html>

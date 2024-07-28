@@ -1,16 +1,4 @@
 // assets/js/scripts.js
-
-// Registering Service Worker
-if ('serviceWorker' in navigator) {
-	window.addEventListener('load', function() {
-		navigator.serviceWorker.register('/assets/js/service-worker.js').then(function(registration) {
-			installApp()
-			console.log('ServiceWorker registration successful with scope: ', registration.scope);
-		}, function(error) {
-			console.log('ServiceWorker registration failed: ', error);
-		});
-	});
-}
 console.log("Scripts JS loaded.");
 // Copy Code Blocks
 document.addEventListener('DOMContentLoaded', () => {
@@ -68,22 +56,3 @@ function openFullscreen() {
 		elem.msRequestFullscreen();
 	}
 }
-function installApp() {
-	let deferredPrompt;
-	window.addEventListener('beforeinstallprompt', (e) => {
-		e.preventDefault();
-		deferredPrompt = e;
-		const installBtn = document.getElementById('install-btn');
-		installBtn.style.display = 'block';
-
-		installBtn.addEventListener('click', () => {
-			deferredPrompt.prompt();
-			deferredPrompt.userChoice.then((choiceResult) => {
-				console.log(choiceResult.outcome === 'accepted' ? 'User accepted the install prompt' : 'User dismissed the install prompt');
-				deferredPrompt = null;
-			});
-		});
-	});
-}
-
-installApp();
