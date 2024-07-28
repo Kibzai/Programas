@@ -227,7 +227,7 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Ayuda](ayuda/): Ayuda Universal
 - [Fun](diversion/): Creación y diversión.
 
-![Internet_cpus_programming_languajes](/assets/img/bg.jpg)
+![Internet_cpus_programming_languajes]({{ '/assets/img/bg.jpg' | relative_url }})
 
 ---
 
