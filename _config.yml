@@ -12,6 +12,7 @@ sass:
 # Plugins de Jekyll
 plugins:
   - jekyll-sass-converter
+  - jekyll-feed
 
 # Build settings
 lsi: false             # Latent Semantic Indexing for related posts, set to false for faster builds
