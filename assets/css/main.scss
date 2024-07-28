@@ -1,7 +1,7 @@
 ---
 ---
 
-$baseurl: "{{ site.baseurl }}";
+$absolute-url: "{{ site.url }}{{ site.baseurl }}";
 $imgcover: "{{ page.cover }}";
 
 

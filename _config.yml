@@ -1,7 +1,7 @@
 # _config.yml
 host: 0.0.0.0
-baseurl: "Programas/"
-url: "https://kibzai.github.io/"
+baseurl: "/Programas"
+url: "https://kibzai.github.io"
 
 # Configuración del sitio
 title: Programas & Aplicaciones
