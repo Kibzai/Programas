@@ -99,6 +99,12 @@ bundle exec jekyll build
 bundle exec jekyll clean
 ```
 
+- **Ejecutarel sitio** (Dev):
+```bash
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+jekyll serve --config _config.yml,_config_dev.yml
+```
+
 Love!
 <!-- 
 ## Uso de Scripts con npm
