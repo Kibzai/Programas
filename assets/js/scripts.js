@@ -1,5 +1,5 @@
 // assets/js/scripts.js
-console.log("Scripts JS loaded.");
+console.log("Javascript scripts loaded.");
 // Copy Code Blocks
 document.addEventListener('DOMContentLoaded', () => {
 	document.querySelectorAll('pre code').forEach((block) => {

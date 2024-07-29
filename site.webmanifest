@@ -1,8 +1,8 @@
 {
-    "name": "Mi Aplicación Jekyll PWA",
-    "short_name": "JekyllPWA",
-    "start_url": "/index.html",
-    "description": "Una aplicación web progresiva con Jekyll",
+    "name": "Kibzai - Programas",
+    "short_name": "Kib",
+    "start_url": "Programas/index.html",
+    "description": "Configuraciones, Programas & Aplicaciones de Kib",
     "icons": [
         {
             "src": "/assets/favicons/android-chrome-192x192.png",
@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#317EFB",
+    "theme_color": "#a7d129",
     "background_color": "#000000",
     "display": "standalone"
 }

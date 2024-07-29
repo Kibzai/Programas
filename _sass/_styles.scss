@@ -11,13 +11,16 @@ body.dark-mode a {
 }
 
 body.dark-mode .content {
-  background-color: rgba(#000, 0.75);
-  padding: 2.5rem 5rem 5rem 5rem;
+  background-color: rgba(#000, 0.85);
+  padding: 2.5em 5em 5em 5em;
 }
-
-li {
+ul{
+  padding-left: 0px;
+}
+ul li {
   background: #1b1919;
   padding: 1rem;
+  list-style: none;
 }
 
 li:nth-child(odd) {
@@ -123,7 +126,7 @@ body.extra-cover {
 }
 
 .navbar-brand {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   font-size: 1.5rem;
 }

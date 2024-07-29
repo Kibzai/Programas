@@ -13,7 +13,7 @@ author:
 ---
 # ¡Configuraciones!
 
-## Principales Herramientas
+### Principales Herramientas
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
@@ -32,6 +32,14 @@ author:
 - [Skullknight.net](https://skullknight.net): Skullknight, the Berserk Forum.
 - https://multistre.am
 - https://www.speechchat.com/
+
+Más información, ayuda y protocolos para crear, hackear y divertirse:
+
+- [Léeme](readme/): Tutoriales.
+- [Fun](diversion/): Creación y diversión.
+- [Ayuda](ayuda/): Ayuda Universal
+
+### Lista de Programas
 
 ## Programas
 
@@ -218,14 +226,6 @@ Aprende!
 - [SonarQube](https://www.sonarqube.org/): Una plataforma para evaluar la calidad del código, que analiza y reporta sobre duplicaciones, estándares de codificación, pruebas unitarias, cobertura de código, bugs y vulnerabilidades de seguridad.
 - [Java VisualVM](https://visualvm.github.io/): Una herramienta de monitoreo, troubleshooting y profiling todo-en-uno para la máquina virtual Java (JVM) que integra varias herramientas de línea de comando JDK en una interfaz gráfica de usuario.
 - [Mockito](https://site.mockito.org/): Un popular framework de mocking para pruebas unitarias en aplicaciones Java, que permite crear y configurar objetos mock de manera sencilla y legible.
-
-## Protocolos
-
-Más información, ayuda y protocolos para crear, hackear y divertirse:
-
-- [Léeme](readme/): Protocolos
-- [Ayuda](ayuda/): Ayuda Universal
-- [Fun](diversion/): Creación y diversión.
 
 ![Internet_cpus_programming_languajes]({{ '/assets/img/bg.jpg' | relative_url }})
 

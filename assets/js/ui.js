@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			});
 		});
 	});
-
+	/* 
 	// Abrir el primer encabezado después de un retraso de 3 segundos
 	setTimeout(() => {
 		if (headers.length > 0) {
@@ -47,4 +47,5 @@ document.addEventListener("DOMContentLoaded", function () {
 			firstContent.style.maxHeight = firstContent.scrollHeight + "px";
 		}
 	}, 1000);
+	*/
 });
