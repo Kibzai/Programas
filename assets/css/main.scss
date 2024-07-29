@@ -3,7 +3,7 @@
 
 $absolute-url: "{{ absolute_url }}{{ site.baseurl }}";
 $imgcover: "{{ page.cover }}";
-$mediaQuery:  '1080px';
+$mediaQuery:  '960px';
 
 // Importar los estilos desde la carpeta _sass
 @import "styles";
