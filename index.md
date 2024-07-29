@@ -3,7 +3,7 @@ layout: default
 title: Programas & Herramientas
 description: Inventemos.
 longDescription: 
-type: 
+type: home
 cover: cover
 class: extra-cover
 tags: [configuraciones, herramientas, programas]
@@ -232,14 +232,9 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 ---
 
 Más!
-
 ## Contacto
-
 - [Kib](https://github.com/Kibzai/): hecho con pasión!
-
 
 ---
 
 Gracias, Muchas Gracias!
-
-[¿¡Ayuda!?](https://github.com/Kibzai/Programs/blob/main/HELP.md)

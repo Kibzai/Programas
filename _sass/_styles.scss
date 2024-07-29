@@ -75,7 +75,8 @@ body.dark-mode a {
 body.extra-cover {
   justify-content: center;
   align-items: center;
-  background: url("#{$absolute_url}/assets/img/cover.jpg") no-repeat center fixed;
+  background: url("#{$absolute_url}/assets/img/cover.jpg") no-repeat bottom fixed;
+  background-color: black;
   background-size: cover;
   position: relative;
 }

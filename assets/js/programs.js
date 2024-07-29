@@ -1,3 +1,4 @@
+// Playlist Cover generator!
 document.addEventListener('DOMContentLoaded', () => {
 	let c = document.querySelector('canvas');
 	if (!c) {
