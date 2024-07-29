@@ -3,7 +3,7 @@ layout: default
 title: Diversión!
 description: Jeje.
 longDescription: 
-type: scripts
+type: programas
 cover: cover-1
 permalink: /diversion/
 ---
