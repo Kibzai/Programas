@@ -1,0 +1,38 @@
+<div>
+  <div class="two-column">
+    <div class="column">
+      <h2>Tags</h2>
+      <ul>
+        {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Author</h2>
+      <p>{{ page.author.name }} - {{ page.author.email }}</p>
+    </div>
+  </div>
+  <div class="two-column">
+    <div class="column">
+      <h2>Nested Data</h2>
+      <ul>
+        {% for key in page.nested_data %}
+        <li>{{ key }}: {{ page.nested_data[key] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Array of Hashes</h2>
+      <ul>
+        {% for item in page.array_of_hashes %}
+        <li>{{ item.name }}: {{ item.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="column">
+    <h2>JSON Data</h2>
+    <pre>{{ page.json_data }}</pre>
+  </div>
+</div>

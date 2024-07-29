@@ -1,12 +1,12 @@
 ---
-layout: info
+layout: default
 title: Léeme!
 description: Acerca de cómo comenzar tu propio proyecto.
 longDescription: 
 date: 2024-07-20
-type: 
+type: site-info
 permalink: /readme/
-cover: cover
+cover: bg
 class: extra-cover
 tags: [configuraciones, herramientas, programas]
 author:

@@ -1,8 +1,10 @@
 ---
-layout: blog
+layout: default
 title: Blog
 description: Listado de todos los posts.
 longDescription: 
-type: scripts
+type: 
 cover: cover
 ---
+
+BLOGSITE!

@@ -1,10 +1,10 @@
 ---
-layout: info
+layout: default
 title: Ayuda!
 description: Ayuda en muchos sentidos.
 longDescription: Ayuda en todos los sentidos.
-type: 
-cover: cover
+type: info
+cover: cover-2
 permalink: /ayuda/
 ---
 

@@ -4,7 +4,7 @@ title: Diversión!
 description: Jeje.
 longDescription: 
 type: scripts
-cover: cover
+cover: cover-1
 permalink: /diversion/
 ---
 # Fun
