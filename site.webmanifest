@@ -1,7 +1,7 @@
 {
     "name": "Kibzai - Programas",
     "short_name": "Kib",
-    "start_url": "Programas/index.html",
+    "start_url": "https://kibzai.github.io/Programas/",
     "description": "Configuraciones, Programas & Aplicaciones de Kib",
     "icons": [
         {
