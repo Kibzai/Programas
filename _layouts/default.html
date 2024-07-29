@@ -73,6 +73,11 @@
       {% include info.html %}
     {% endif %}
   </div>
+  
+<div id="admin-content" style="display:none;">
+  <h3>Admin Only Content</h3>
+  <p>This section is only visible to the admin user.</p>
+</div>
   <footer>
     <button id="install-btn" style="display: none;">Instalar Aplicación</button><br>
     <button onclick="openFullscreen()">Ir a Pantalla Completa</button><br>
@@ -80,7 +85,40 @@
   </footer>
   
   <script>
+    async function login() {
+            const username = prompt('Enter your GitHub username:');
+            localStorage.setItem('username', username);
+            location.reload();
+        }
+
+        function logout() {
+            localStorage.removeItem('username');
+            location.reload();
+        }
+
+        async function checkUser() {
+            const savedUsername = localStorage.getItem('username');
+            if (savedUsername) {
+                try {
+                    const response = await fetch(`https://api.github.com/users/${savedUsername}`);
+                    if (response.ok) {
+                        const userData = await response.json();
+                        if (userData.login === '{{ site.username }}') {
+                            document.getElementById('admin-content').style.display = 'block';
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error fetching user data:', error);
+                }
+            }
+        }
+
+        window.addEventListener('load', (event) => {
+            checkUser();
+        });
+
 document.addEventListener('DOMContentLoaded', () => {
+
     // Registering Service Worker
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {

@@ -1,6 +1,7 @@
 host: 0.0.0.0
 baseurl: "/Programas"
 url: "https://kibzai.github.io"
+username: "Kibzai"
 
 # Configuración del sitio
 title: Programas & Aplicaciones
