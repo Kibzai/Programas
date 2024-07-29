@@ -11,7 +11,7 @@ body.dark-mode a {
 }
 
 body.dark-mode .content {
-  background-color: #111;
+  background-color: rgba(#000, 0.75);
   padding: 2.5rem 5rem 5rem 5rem;
 }
 
@@ -76,6 +76,7 @@ body.extra-cover {
   justify-content: center;
   align-items: center;
   background: url("#{$absolute_url}/assets/img/cover.jpg") no-repeat center fixed;
+  background-size: cover;
   position: relative;
 }
 
@@ -227,6 +228,7 @@ img {
 
 canvas {
   margin-right: 2rem;
+  width: 100%;
 }
 
 .settings {

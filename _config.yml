@@ -1,11 +1,10 @@
 host: 0.0.0.0
+# Configuración del sitio
 baseurl: "/Programas"
 url: "https://kibzai.github.io"
-username: "Kibzai"
-
-# Configuración del sitio
-title: Programas & Aplicaciones
-description: Configuraciones, Programas & Aplicaciones
+username: Kibzai
+title: Kib Programas
+description: Configuraciones, Programas & Aplicaciones de Kib
 
 # Configuración de compilación
 sass:
