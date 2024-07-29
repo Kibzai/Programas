@@ -90,18 +90,18 @@
     {% if page.type == "blog" %}
     {% include blog.html %}
     {% endif %}
-    <p><a href="#" onclick="login()">Login</a></p>
-		<p><a href="#" onclick="logout()">Logout</a></p>
+    <button onclick="login()" class="btn">Iniciar Sesión</button>
     <div id="admin-content" style="display:none;">
       <hr>
-      <h3>Contenido de Administrador</h3>
-      <p>Sección sólo visible para "admin user".</p>
+      <h3>Contenido con Sesión</h3>
+      <p>Sección sólo visible con sesión.</p>
       <a href="https://github.com/Kibzai/Programs/blob/main/HELP.md" target="_blank" rel="noopener noreferrer">¿¡Ayuda!?</a>
+      <p><button onclick="logout()"  class="btn">Cerrar Sesión</button></p>
     </div>
   </div>
   <footer>
-    <button id="install-btn" class="copy-btn" style="display: none;">Instalar Aplicación</button><br>
-    <button onclick="openFullscreen()" class="copy-btn">Pantalla Completa</button><br>
+    <button id="install-btn" class="btn" style="display: none;">Instalar Aplicación</button><br>
+    <button onclick="openFullscreen()" class="btn">Pantalla Completa</button><br>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
 
@@ -112,7 +112,7 @@
       genURL: "{{ absolute_url }}{{ site.baseurl }}"
     };
     async function login() {
-      const username = prompt('Enter your GitHub username:');
+      const username = prompt('Ingresa contraseña:');
       localStorage.setItem('username', username);
       location.reload();
     }

@@ -70,7 +70,17 @@ body.dark-mode {
 body.dark-mode a {
   color: #a7d129;
 }
-
+/* Copy Button Styling */
+body.dark-mode .btn {
+  background-color: #a7d129;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 0.75em;
+  font-weight: bold;
+}
 /* Estilos para la clase extra-cover */
 body.extra-cover {
   justify-content: center;
