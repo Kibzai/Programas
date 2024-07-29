@@ -146,13 +146,14 @@ body.extra-cover {
 }
 
 /* Media Query para Pantallas Pequeñas */
-@media (max-width: 768px) {
+@media (max-width: #{$mediaQuery}) {
   .navbar .container {
     flex-direction: column;
     align-items: flex-start;
   }
   
   .navbar-nav {
+    display: none;
     flex-direction: column;
     width: 100%;
   }
@@ -213,7 +214,7 @@ img {
 
 @font-face {
   font-family: 'CircularSp';
-  src: url('../fonts/CircularSpotifyText-Black.otf') format('opentype');
+  src: url("#{$absolute_url}/assets/fonts/CircularSpotifyText-Black.otf") format('opentype');
   font-weight: bold;
 }
 
@@ -293,7 +294,7 @@ canvas {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 1080px) {
+@media (max-width: #{$mediaQuery}) {
   .container {
     flex-direction: column;
     align-items: center;

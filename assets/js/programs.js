@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 	let ctx = c.getContext('2d');
 	let fontName = 'CircularSp';
-	let fontUrl = "url('/assets/fonts/CircularSpotifyText-Bold.otf')";
+	// Define the font URL
+	let genURL = window.siteConfig.genURL;
+	let fontUrl = "url('"+`${genURL}/assets/fonts/CircularSpotifyText-Bold.otf`+"')";
+	// let fontUrl = "url('/assets/fonts/CircularSpotifyText-Bold.otf')";
 	let f = new FontFace(fontName, fontUrl);
 	f.load().then(function () {
 	  document.fonts.add(f);

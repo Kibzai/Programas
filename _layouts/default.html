@@ -86,6 +86,11 @@
   </footer>
 
   <script>
+
+    // Pass Jekyll variables to JavaScript
+    window.siteConfig = {
+      genURL: "{{ absolute_url }}{{ site.baseurl }}"
+    };
     async function login() {
       const username = prompt('Enter your GitHub username:');
       localStorage.setItem('username', username);
@@ -119,7 +124,6 @@
     });
 
     document.addEventListener('DOMContentLoaded', () => {
-
       // Registering Service Worker
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
