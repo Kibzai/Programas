@@ -39,9 +39,9 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Fun](diversion/): Creación y diversión.
 - [Ayuda](ayuda/): Ayuda Universal
 
-### Lista de Programas
+# Programas
 
-## Programas
+## Principales
 
 ### Machine Learning
 

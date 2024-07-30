@@ -1,8 +1,7 @@
 ---
 ---
-
-$absolute-url: "{{ absolute_url }}{{ site.baseurl }}";
-$imgcover: "{{ page.cover }}";
+// Variables
+$absoluteUrl: "{{ absolute_url }}{{ site.baseurl }}";
 $mediaQuery:  '720px';
 
 // Importar los estilos desde la carpeta _sass

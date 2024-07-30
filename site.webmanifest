@@ -2,7 +2,7 @@
     "name": "Kibzai - Programas",
     "short_name": "Kib",
     "start_url": "https://kibzai.github.io/Programas/",
-    "description": "Configuraciones, Programas & Aplicaciones de Kib",
+    "description": "Programas & Aplicaciones de Kib",
     "icons": [
         {
             "src": "/assets/favicons/android-chrome-192x192.png",

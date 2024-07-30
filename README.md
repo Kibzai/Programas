@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Léeme!
-description: Acerca de cómo comenzar tu propio proyecto.
+description: Tutoriales de cómo comenzar tus propios proyectos.
 longDescription: 
-date: 2024-07-20
+date: 2024-07-29
 type: site-info
 permalink: /readme/
 cover: bg
@@ -38,8 +38,9 @@ Instrucciones y Scripts para correr el repositorio de Programas &amp; Herramient
 
 Asegúrate de que te encuentras en el ambiente correcto: **App** o **Repositorio**.
 
-- [**App** - Producción (Github Pages): https://kibzai.github.io/Programas/](https://kibzai.github.io/Programas/)
-  - [**Repositorio** - Código fuente del **Proyecto**: https://github.com/Kibzai/Programas](https://github.com/Kibzai/Programas)
+- [**Programas** - Aplicaciones (Github Pages): https://kibzai.github.io/Programas/](https://kibzai.github.io/Programas/)
+
+- [**Tutoriales** - Código fuente del **Proyecto**: https://github.com/Kibzai/Programas](https://github.com/Kibzai/Programas)
 
 Code Block:
 

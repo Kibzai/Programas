@@ -84,15 +84,6 @@ body.dark-mode .btn {
   font-size: 0.75em;
   font-weight: bold;
 }
-/* Estilos para la clase extra-cover */
-body.extra-cover {
-  justify-content: center;
-  align-items: center;
-  background: url("#{$absolute_url}/assets/img/cover.jpg") no-repeat bottom fixed;
-  background-color: black;
-  background-size: cover;
-  position: relative;
-}
 
 .welcome-text {
   position: relative;
@@ -229,7 +220,7 @@ img {
 
 @font-face {
   font-family: 'CircularSp';
-  src: url("#{$absolute_url}/assets/fonts/CircularSpotifyText-Black.otf") format('opentype');
+  src: url("#{$absoluteUrl}/assets/fonts/CircularSpotifyText-Black.otf") format('opentype');
   font-weight: bold;
 }
 

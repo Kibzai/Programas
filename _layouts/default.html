@@ -56,6 +56,19 @@
 
   <!-- PWA -->
   <meta name="theme-color" content="#317EFB" />
+  {% if page.cover %}
+  <style>
+    /* Estilos para la clase extra-cover */
+    body.extra-cover {
+      justify-content: center;
+      align-items: center;
+      background: url('{{  '/assets/img/' | relative_url | append: page.cover | append: '.jpg' }}')no-repeat bottom fixed;
+      background-color: black;
+      background-size: cover;
+      position: relative;
+    }
+  </style>
+  {% endif %}
 
 </head>
 
