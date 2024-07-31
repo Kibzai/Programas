@@ -1,1 +1,13 @@
-accepted?
+# Limpieza
+bundle exec jekyll clean
+
+# Install
+gem install bundler
+# Install
+bundle install
+# Exeecute
+bundle exec jekyll build
+
+# Ejecutarel sitio
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+jekyll serve --config _config.yml,_config_dev.yml

@@ -31,8 +31,7 @@ json_data: |
   }
 ---
 # Protocolos
-<p><time datetime=mm
-"{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
 Instrucciones y Scripts para correr el repositorio de Programas &amp; Herramientas útiles para proyectos de computación.
 
 ## Inicio
@@ -77,70 +76,4 @@ chmod +x script.sh
 sh script.sh
 ```
 
-- **Instalar Bundler**:
-```bash
-gem install bundler
-```
-
-- **Instalar las gemas**:
-```bash
-bundle install
-```
-
-- **k**:
-  - **x** (`scripts/install.sh`)
-
-- **Crear Scripts de Shell para Entornos Específicos**:
-  - **Script de Desarrollo** (`scripts/dev.sh`)
-  - **Script de Producción** (`scripts/build.sh`)
-
-- **Hacer los Scripts Ejecutables**:
-dentro de `scripts/`
-```bash
-chmod +x scripts/dev.sh
-chmod +x scripts/build.sh
-```
-
-## Comandos Adicionales
-
-- **Construir el sitio sin servirlo**:
-```bash
-bundle exec jekyll build
-```
-
-- **Limpiar el sitio** (elimina el directorio `_site`):
-```bash
-bundle exec jekyll clean
-```
-
-- **Ejecutarel sitio** (Dev):
-```bash
-bundle exec jekyll serve --config _config.yml,_config_dev.yml
-jekyll serve --config _config.yml,_config_dev.yml
-```
-
 Love!
-<!-- 
-## Uso de Scripts con npm
-
-- **Para desarrollo**:
-```bash
-npm run dev
-```
-
-- **Para construir el sitio para producción**:
-```bash
-npm run build
-```
-
-Para borrar `node_modules` y `package-lock.json` y reinstalar dependencias:
-```bash
-rm -rf node_modules/ && rm -rf package-lock.json
-npm install --force
-```
-
-## Diversión Extra
-```bash
-sh diversion.sh
-```
--->

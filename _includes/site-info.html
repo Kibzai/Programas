@@ -14,14 +14,18 @@
     </div>
   </div>
   <div class="two-column">
-    <div class="column">
+<!--     <div class="column">
       <h2>Nested Data</h2>
       <ul>
         {% for key in page.nested_data %}
-        <li>{{ key }}: {{ page.nested_data[key] }}</li>
-        {% endfor %}
+    {% assign image_path = '/assets/img/' | append: page.cover | append: '.jpg' %}
+    <li>{{ key }}{{ page.nested_data[key] }}</li>
+    <p>Imagen Path: {{ image_path }}</p>
+    <p>Clave-Imagen: {{ key }}</p>
+    <p>Valor-Imagen: {{ key }}{{ page.nested_data[key] | append: '.jpg' }}</p>
+{% endfor %}  
       </ul>
-    </div>
+    </div> -->
     <div class="column">
       <h2>Array of Hashes</h2>
       <ul>
