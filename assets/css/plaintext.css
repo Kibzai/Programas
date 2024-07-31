@@ -1,0 +1,25 @@
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    -moz-control-character-visibility: visible;
+  }
+  
+  .nowrap pre {
+    white-space: pre;
+  }
+  
+  html:not([dir]) pre {
+    unicode-bidi: plaintext;
+  }
+  
+  @-moz-document unobservable-document() {
+    :root {
+      color-scheme: light dark;
+    }
+  }
+  
+  @media (width: 0) or (height: 0) {
+    :root {
+      display: none;
+    }
+  }

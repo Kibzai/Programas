@@ -31,7 +31,8 @@ json_data: |
   }
 ---
 # Protocolos
-<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+<p><time datetime=mm
+"{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
 Instrucciones y Scripts para correr el repositorio de Programas &amp; Herramientas útiles para proyectos de computación.
 
 ## Inicio
@@ -52,46 +53,53 @@ Code Block:
 ```
 ## Estructura de Archivos y Configuraciones
 
-Este es un sitio Jekyll simple configurado para manejar diferentes entornos (desarrollo y producción) utilizando npm y scripts de shell.
+Este es un sitio Jekyll simple configurado para x con scripts de shell.
+
+Cuidado!
+
+Vamos a correr algo pesado:
+
+Aqui en texto
+
+<div>
+  <iframe src="{{ '/scripts/script.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse;"></iframe>
+</div>
+
+Vamos a comenzar
 
 ## Configuración Inicial
 
-1. **Crear un `Gemfile`** en la raíz del proyecto:
+- **Correr un `Bash|sh|shell`** en la raíz del proyecto:
+```sh
+cd scripts
+mv script.txt script.sh
+chmod +x script.sh
+sh script.sh
+```
 
-    ```ruby
-    source "https://rubygems.org"
-    gem "jekyll", "~> 4.2.0"
-    gem "webrick", "~> 1.7"
-    gem "jekyll-sass-converter", "~> 2.0"
-    ```
+- **Instalar Bundler**:
+```bash
+gem install bundler
+```
 
-2. **Instalar Bundler**:
+- **Instalar las gemas**:
+```bash
+bundle install
+```
 
-    ```bash
-    gem install bundler
-    ```
+- **k**:
+  - **x** (`scripts/install.sh`)
 
-3. **Instalar las gemas**:
+- **Crear Scripts de Shell para Entornos Específicos**:
+  - **Script de Desarrollo** (`scripts/dev.sh`)
+  - **Script de Producción** (`scripts/build.sh`)
 
-    ```bash
-    bundle install
-    ```
-
-4. **k**:
-
-    - **x** (`scripts/install.sh`)
-
-5. **Crear Scripts de Shell para Entornos Específicos**:
-
-    - **Script de Desarrollo** (`scripts/dev.sh`)
-    - **Script de Producción** (`scripts/build.sh`)
-
-6. **Hacer los Scripts Ejecutables**:
+- **Hacer los Scripts Ejecutables**:
 dentro de `scripts/`
-    ```bash
-    chmod +x scripts/dev.sh
-    chmod +x scripts/build.sh
-    ```
+```bash
+chmod +x scripts/dev.sh
+chmod +x scripts/build.sh
+```
 
 ## Comandos Adicionales
 
