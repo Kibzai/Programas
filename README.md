@@ -61,7 +61,7 @@ Vamos a correr algo pesado:
 Aqui en texto
 
 <div>
-  <iframe src="{{ '/scripts/script.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse;"></iframe>
+  <iframe src="{{ '/scripts/script.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
 </div>
 
 Vamos a comenzar
