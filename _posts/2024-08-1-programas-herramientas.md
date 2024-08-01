@@ -2,7 +2,7 @@
 layout: default
 title: Programas & Herramientas - En vivo!
 description: Este es el resumen de mi primer post.
-type: home
+type: 
 cover: cover-2
 class: 
 ---
