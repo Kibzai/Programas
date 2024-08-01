@@ -103,7 +103,6 @@
     {% if page.type == "blog" %}
     {% include blog.html %}
     {% endif %}
-    <button onclick="login()" class="btn">Iniciar Sesión</button>
     <div id="admin-content" style="display:none;">
       <hr>
       <h3>Contenido con Sesión</h3>
@@ -113,6 +112,7 @@
     </div>
   </div>
   <footer>
+    <button onclick="login()" class="btn" id="admin-log">Iniciar Sesión</button><br>
     <button id="install-btn" class="btn" style="display: none;">Instalar Aplicación</button><br>
     <button onclick="openFullscreen()" class="btn">Pantalla Completa</button><br>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
@@ -144,6 +144,10 @@
             const userData = await response.json();
             if (userData.login === '{{ site.username }}') {
               document.getElementById('admin-content').style.display = 'block';
+              document.getElementById('admin-log').style.display = 'none';
+            } else {
+              document.getElementById('admin-content').style.display = 'none';
+              document.getElementById('admin-log').style.display = 'block';
             }
           }
         } catch (error) {

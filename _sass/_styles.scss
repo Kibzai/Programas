@@ -4,6 +4,8 @@ body.dark-mode {
   font-family: 'Courier New', Courier, monospace;
   color: #e0e0e0;
   margin: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 body pre {
   background-color: #000;
@@ -88,6 +90,9 @@ body.dark-mode .btn {
   padding: 5px 10px;
   font-size: 0.75em;
   font-weight: bold;
+}
+body.dark-mode footer .btn {
+  width: 100%;
 }
 
 .welcome-text {

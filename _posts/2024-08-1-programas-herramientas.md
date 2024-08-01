@@ -1,12 +1,20 @@
 ---
 layout: default
-title: Mi Primer Post
+title: Programas & Herramientas - En vivo!
 description: Este es el resumen de mi primer post.
-type: 
-cover: cover
-class: extra-cover
+type: home
+cover: cover-2
+class: 
 ---
 
 # Mi Primer Post
 
 ¡Hola, mundo! Este es mi primer post en este blog.
+
+ ## yo
+
+ Lorem ipsum
+
+ ## yooooooo
+
+ sdfghsdfgs
