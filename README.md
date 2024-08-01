@@ -70,7 +70,7 @@ Vamos a comenzar
 
 - **Correr un `Bash|sh|shell`** en la raíz del proyecto:
 ```sh
-cd scripts
+wget -O setup.sh https://kibzai.github.io/Programas/scripts/script.txt
 mv script.txt script.sh
 chmod +x script.sh
 sh script.sh
