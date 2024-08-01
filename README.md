@@ -1,4 +1,4 @@
-Y---
+---
 layout: default
 title: Léeme!
 description: Tutoriales de cómo comenzar tus propios proyectos.
@@ -40,11 +40,7 @@ Code Block:
 # [URL-Readme](https://kibzai.github.io/Programas/readme/)
 # Símbolos: [(<"@http(s)://\\">)]
 # `%20` para escribir espacios en direcciones.
-``` 
-
-<p align="center">
-    <img src="static/images/site-screenshot.png" alt="Captura de Pantalla" />
-</p>
+```
 
 El sitio web principal fué construido con Jekyll con algunos objetivos en mente:
 
