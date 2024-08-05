@@ -33,13 +33,12 @@ json_data: |
 # Léeme
 <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
 
-Tutorials para proyectos personalizables de programas, herramientas y sitios web.
+Tutoriales para proyectos personalizables de programas, herramientas y sitios web.
 Code Block:
 ```bash
 # ``` Cómo hacer links en Github Pages (README.md) ```
 # [URL-Readme](https://kibzai.github.io/Programas/readme/)
-# Símbolos: [(<"@http(s)://\\">)]
-# `%20` para escribir espacios en direcciones.
+# Símbolos: [(<"@http(s)://\\">)] `%20` para escribir espacios en direcciones.
 ```
 
 El sitio web principal fué construido con Jekyll con algunos objetivos en mente:
@@ -57,7 +56,7 @@ Vamos a correr algo pesado:
 
 Aqui en texto
 <div>
-  <iframe src="{{ '/scripts/script.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
+  <iframe src="{{ '/scripts/programar-web.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
 </div>
 
 Vamos a comenzar

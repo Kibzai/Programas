@@ -1,0 +1,10 @@
+#!/bin/bash
+# Asume que ya has extraído el comentario de los metadatos y lo has guardado en mensaje_cifrado.txt
+archivo_cifrado="mensaje_cifrado.txt"
+# Ruta del archivo de texto descifrado
+archivo_descifrado="mensaje_descifrado.txt"
+# Descifrar el archivo de texto
+openssl enc -aes-256-cbc -d -base64 -in $archivo_cifrado -out $archivo_descifrado
+# Limpiar el historial de Bash
+history -c
+echo "" > ~/.bash_history
