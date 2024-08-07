@@ -11,10 +11,10 @@ class:
 
 ¡Hola, mundo! Este es mi primer post en este blog.
 
- ## yo
+## yo
 
- Lorem ipsum
+Lorem ipsum
 
- ## yooooooo
+## yooooooo
 
- sdfghsdfgs
+sdfghsdfgs
