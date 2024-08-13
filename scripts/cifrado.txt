@@ -1,16 +1,16 @@
 #!/bin/bash
 # Ruta del archivo de texto a cifrar
-archivo_texto="mensaje.txt"
+a="a.txt"
 # Ruta de la imagen
-imagen="imagen.jpg"
+#img="img.jpg"
 # Cifrar el archivo de texto
-openssl enc -aes-256-cbc -base64 -in $archivo_texto -out mensaje_cifrado.txt
+openssl enc -aes-256-cbc -base64 -in $a -out b.txt
 # Eliminar todos los metadatos de la imagen
-exiftool -all= $imagen
+#exiftool -all= $img
 # Agregar el texto cifrado a los metadatos de la imagen
-exiftool -comment="$(cat mensaje_cifrado.txt)" $imagen
+#exiftool -comment="$(cat b.txt)" $img
 # Limpiar archivos temporales
-rm mensaje_cifrado.txt
+#rm b.txt
 # Limpiar el historial de Bash
 #history -c
 #echo "" > ~/.bash_history
