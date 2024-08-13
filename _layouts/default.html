@@ -196,6 +196,98 @@
       installApp();
     });
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.crypto && window.crypto.subtle) {
+        
+let encryptionKey, iv;
+
+async function generateKey() {
+    encryptionKey = await crypto.subtle.generateKey(
+        { name: "AES-GCM", length: 256 },
+        true,
+        ["encrypt", "decrypt"]
+    );
+    const exportedKey = await crypto.subtle.exportKey("raw", encryptionKey);
+    document.getElementById('keyOutput').value = arrayBufferToBase64(exportedKey);
+}
+
+function arrayBufferToBase64(buffer) {
+    let binary = '';
+    const bytes = new Uint8Array(buffer);
+    const len = bytes.byteLength;
+    for (let i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
+}
+
+function base64ToArrayBuffer(base64) {
+    const binaryString = window.atob(base64);
+    const len = binaryString.length;
+    const bytes = new Uint8Array(len);
+    for (let i = 0; i < len; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+    }
+    return bytes.buffer;
+}
+
+async function encryptText(plaintext) {
+    iv = crypto.getRandomValues(new Uint8Array(12)); // GCM standard IV size
+
+    const encodedText = new TextEncoder().encode(plaintext);
+    const ciphertext = await crypto.subtle.encrypt(
+        { name: "AES-GCM", iv: iv },
+        encryptionKey,
+        encodedText
+    );
+
+    document.getElementById('ciphertext').value = arrayBufferToBase64(ciphertext);
+    document.getElementById('ivOutput').value = arrayBufferToBase64(iv);
+}
+
+async function decryptText(ciphertextBase64, ivBase64) {
+    const ciphertext = base64ToArrayBuffer(ciphertextBase64);
+    const iv = base64ToArrayBuffer(ivBase64);
+
+    try {
+        const decryptedBuffer = await crypto.subtle.decrypt(
+            { name: "AES-GCM", iv: iv },
+            encryptionKey,
+            ciphertext
+        );
+
+        return new TextDecoder().decode(decryptedBuffer);
+    } catch (e) {
+        return 'Decryption failed. Please check your inputs.';
+    }
+}
+
+document.getElementById('encryptBtn').addEventListener('click', async () => {
+    const plaintext = document.getElementById('plaintext').value;
+    if (!plaintext) {
+        alert('Please enter some plaintext to encrypt.');
+        return;
+    }
+    await generateKey();
+    await encryptText(plaintext);
+});
+
+document.getElementById('decryptBtn').addEventListener('click', async () => {
+    const ciphertext = document.getElementById('ciphertext').value;
+    const ivBase64 = document.getElementById('ivOutput').value;
+    if (!ciphertext || !ivBase64) {
+        alert('Please encrypt some text first.');
+        return;
+    }
+    const decryptedText = await decryptText(ciphertext, ivBase64);
+    document.getElementById('decryptedtext').value = decryptedText;
+});
+      } else {
+        alert("Web Crypto API is not supported in this environment.");
+      }
+    });
+  </script>
 </body>
 
 </html>
