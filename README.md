@@ -35,7 +35,39 @@ json_data: |
 
 ## Programas y su web hecho en Jekyll con JavaScript
 
+## Estructura del Proyecto
+
+- **`_config.yml`:** Archivo de configuración de Jekyll.
+- **`_includes/`:** Componentes HTML reutilizables.
+- **`_layouts/`:** Plantillas de diseño.
+- **`_programas/`:** Archivos de programas.
+- **`_posts/`:** Archivos de blog.
+- **`assets/`:** Recursos como imágenes, CSS y JavaScript.
+- **`index.html`:** Página principal del sitio.
+- **`scripts/`:** Scripts ejecutables.
+
+### Javascript Functions
+    - Botones de copiar en bloques de código
+    - Acordeones dinámicos
+
+
 # Protocols
+
+- **Programas & Aplicaciones:** Listas de aplicaciones para diferentes plataformas.
+- **Herramientas:** Herramientas e implementaciones.
+    - **Password protected content**.
+    - **Recopilación de Datos:** Obtén información detallada sobre el agente de usuario y utiliza estos datos para mejorar la experiencia de tus visitantes.
+    - AES-GCM Encryption/Decryption with Password.
+    - **Coming Soon**: Password Generator.
+    - **Generador de Imágenes:** Crea imágenes de cover para tus playlists de manera sencilla y rápida.
+    - Consola JavaScript interactiva.
+- **Léeme:** Readme: Instrucciones, documentación y tutoriales.
+- **Blog:** Blog con artículos.
+- **Diversión:** Registro detallado de experimentos e ideas.
+    - **Coming Soon**: Random Website.
+- **Ayuda: Tutoriales, Automatización & Scripts:** Instalación de software, configuración de sistemas & scripts.
+
+---
 
 ## Tecnologías Multiplataforma
 
@@ -49,20 +81,6 @@ En un mundo de tecnología, contar con herramientas es crucial. La herramienta d
 TL;DR: Tutoriales para scripts, proyectos personalizables de programas, herramientas y sitios web.
 
 Una plataforma completa que integra una vasta gama de funcionalidades diseñadas para facilitar y potenciar tu trabajo.
-
-Protocolos:
-- **Automatización y Scripts:** Instalación de software, configuración de sistemas & scripts.
-- **Léeme:** Readme: Instrucciones, documentación y tutoriales.
-- **Blog:** Mantén un registro detallado de tus proyectos y comparte tus conocimientos con la comunidad.
----
-Protocolos extra:
-- **Aplicaciones:** Listas de aplicaciones para diferentes plataformas.
-- **Componentes Javascript:**
-    - Consola JavaScript interactiva.
-    - Botones de copiar en bloques de código
-    - Acordeones dinámicos
-    - **Generador de Imágenes:** Crea imágenes de cover para tus playlists de manera sencilla y rápida.
-    - **Recopilación de Datos:** Obtén información detallada sobre el agente de usuario y utiliza estos datos para mejorar la experiencia de tus visitantes.
 
 ### Facilita tu Desarrollo y Optimiza tu Tiempo
 
@@ -167,17 +185,6 @@ sh script.sh
 - **Compatibilidad Multiplataforma:** El sitio es compatible con todos los navegadores modernos y se adapta a diferentes dispositivos y tamaños de pantalla.
 - **Fácil Personalización:** Estructura de archivos y configuración intuitiva para que puedas adaptar el sitio a tus necesidades específicas.
 - **Desplegable en cualquier Servidor:** Puede ser desplegado en GitHub Pages, Netlify, Vercel, y cualquier servidor compatible con HTML estático.
-
-## Estructura del Proyecto
-
-- **`_config.yml`:** Archivo de configuración de Jekyll.
-- **`_includes/`:** Componentes HTML reutilizables.
-- **`_layouts/`:** Plantillas de diseño.
-- **`_posts/`:** Archivos de blog.
-- **`assets/`:** Recursos como imágenes, CSS y JavaScript.
-- **`index.html`:** Página principal del sitio.
-- **`scripts/`:** Scripts JavaScript personalizados.
-
 
 ----
 Command Prompt

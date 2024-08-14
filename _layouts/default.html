@@ -88,29 +88,26 @@
     <!-- FINAL: CONTENT -->
 
     <!-- Page type: {{ page.type }} -->
-    <!-- "Programas" -->
     {% if page.type == "programas" %}
+    <!-- "Programas" -->
     {% include playlist.html %}
     {% endif %}
-    <!-- "Info" -->
     {% if page.type == "info" %}
+    <!-- "Info" -->
     {% include info.html %}
     {% endif %}
-    <!-- "Site-Info" -->
     {% if page.type == "site-info" %}
+    <!-- "Site-Info" -->
     {% include site-info.html %}
     {% endif %}
-    <!-- "Blog" -->
+    {% if page.type == "tools" %}
+    <!-- "Herramientas" -->
+    {% include tools.html %}
+    {% endif %}
     {% if page.type == "blog" %}
+    <!-- "Blog" -->
     {% include blog.html %}
     {% endif %}
-    <div id="admin-content" style="display:none;">
-      <hr>
-      <h3>Contenido con Sesión</h3>
-      <p>Sección sólo visible con sesión.</p>
-      <a href="https://github.com/Kibzai/Programs/blob/main/HELP.md" target="_blank" rel="noopener noreferrer">¿¡Ayuda!?</a>
-      <p><button onclick="logout()"  class="btn">Cerrar Sesión</button></p>
-    </div>
   </div>
   <footer>
     <button onclick="login()" class="btn" id="admin-log">Iniciar Sesión</button><br>
