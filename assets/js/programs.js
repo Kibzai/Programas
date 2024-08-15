@@ -99,17 +99,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	  z1.addEventListener('input', updateCover);
 	  z2.addEventListener('input', updateCover);
 	  z3.addEventListener('input', updateCover);
-	  z1.value = 'Playlist';
-	  z2.value = 'Cover';
-	  z3.value = 'Kib';
+	  z1.value = 'The';
+	  z2.value = 'Journey';
+	  z3.value = 'by-Kibzai';
 	}
 	if (c1 && c2 && c3) {
 	  c1.addEventListener('input', updateCover);
 	  c2.addEventListener('input', updateCover);
 	  c3.addEventListener('input', updateCover);
-	  c1.value = '#033C5A';
-	  c2.value = '#1CB4C3';
-	  c3.value = '#E1D0B8';
+	  c1.value = '#3a86ff';
+	  c2.value = '#8338ec';
+	  c3.value = '#ff006e';
 	}
 	if (opacitySlider && blendModeDropdown) {
 	  opacitySlider.addEventListener('input', updateCover);

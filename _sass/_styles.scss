@@ -360,7 +360,7 @@ canvas {
 h1, label {
   color: #e0e0e0;
 }
-textarea, input, button {
+textarea, input {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
@@ -370,13 +370,23 @@ textarea, input, button {
   border-radius: 4px;
   box-sizing: border-box;
 }
-button {
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
   cursor: pointer;
   background-color: #6200ea;
   border: none;
   transition: background-color 0.3s;
 }
-button:hover {
+.btn :hover {
   background-color: #3700b3;
 }
 .output {
