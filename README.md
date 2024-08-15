@@ -33,26 +33,9 @@ json_data: |
 # 📰 Léeme
 <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
 
-## Programas y su web hecho en Jekyll con JavaScript
-
-## Estructura del Proyecto
-
-- **`_config.yml`:** Archivo de configuración de Jekyll.
-- **`_includes/`:** Componentes HTML reutilizables.
-- **`_layouts/`:** Plantillas de diseño.
-- **`_programas/`:** Archivos de programas.
-- **`_posts/`:** Archivos de blog.
-- **`assets/`:** Recursos como imágenes, CSS y JavaScript.
-- **`index.html`:** Página principal del sitio.
-- **`scripts/`:** Scripts ejecutables.
-
-### Javascript Functions
-    - Botones de copiar en bloques de código
-    - Acordeones dinámicos
-
-
-# Protocols
-
+## Programas - Web
+Programas y su web hecho en Jekyll con JavaScript
+### Navegación
 - **Programas & Aplicaciones:** Listas de aplicaciones para diferentes plataformas.
 - **Herramientas:** Herramientas e implementaciones.
     - **Password protected content**.
@@ -67,37 +50,26 @@ json_data: |
     - **Coming Soon**: Random Website.
 - **Ayuda: Tutoriales, Automatización & Scripts:** Instalación de software, configuración de sistemas & scripts.
 
----
+### Estructura del Proyecto
 
-## Tecnologías Multiplataforma
+- **`_config.yml`:** Archivo de configuración de Jekyll.
+- **`_config_dev.yml`:** Configuración de desarrollo.
+- **`_includes/`:** Componentes HTML reutilizables.
+- **`_layouts/`:** Plantilla HTML.
+- **`_programas/`:** Archivos de programas.
+- **`_posts/`:** Archivos de blog.
+- **`assets/`:** Recursos como imágenes, CSS y JavaScript.
+- **`index.md`:** Página principal del sitio.
+- **`scripts/`:** Scripts ejecutables.
 
-En un mundo de tecnología, contar con herramientas es crucial. La herramienta definitiva que cambiará la forma en que interactúas con la tecnología y programas: es la solución integral para todas tus necesidades de tecnología, desarrollo y web.
-
-- Diseño responsivo: el sitio web se ve y se comporta bien en pantallas de todos los tamaños.
-- Rápido: solo carga lo necesario para que funcione.
-- Adaptativo: soporta el modo oscuro en la mayoría de los sistemas operativos por defecto (escritorio y móvil).
-- Atractivo: tiene un diseño agradable que es tanto accesible como visualmente placentero.
-
-TL;DR: Tutoriales para scripts, proyectos personalizables de programas, herramientas y sitios web.
-
-Una plataforma completa que integra una vasta gama de funcionalidades diseñadas para facilitar y potenciar tu trabajo.
-
-### Facilita tu Desarrollo y Optimiza tu Tiempo
-
-Este programa está diseñado pensando en la compatibilidad y la personalización. Con soporte para Windows, Linux, Android, iOS, Mac y todos los navegadores modernos, puedes estar seguro de que tu sitio web funcionará perfectamente en cualquier plataforma. Además, la estructura del proyecto y las guías de personalización te permiten adaptar cada aspecto del sitio a tus necesidades específicas.
-
-### Implementación Sencilla en GitHub Pages
-
-Implementar tu sitio web nunca ha sido tan fácil. Con nuestras detalladas guías paso a paso, podrás desplegar tu proyecto en GitHub Pages en cuestión de minutos. Ya sea que prefieras un método sencillo o una implementación más avanzada utilizando GitHub Actions, tenemos todo cubierto.
-
-## Website
-- [Kibzai: Programas - Github Pages Website](https://kibzai.github.io/Programas/): Public Site.
-- [Programas: Repository - Github Source Code](https://github.com/Kibzai/Programas/): Public Repository.
+### Javascript Functions
+- **`assets/js`:** Funciones JavaScript.
+  - **`openFullscreen()`:** Pantalla completa
+  - **`() => {Acordeones dinámicos}`** 
+  - Botones de copiar en bloques de código
 
 
-# Repositorio de Tecnologías Multiplataforma
-
-¡Bienvenido al repositorio de Tecnologías Multiplataforma! Este espacio está dedicado a la recopilación y organización de programas, herramientas, inventos, experimentos, configuraciones, listas de aplicaciones, protocolos, sitios web, scripts y muchas otras tecnologías compatibles con Windows, Linux, Android, iOS, Mac y, sobre todo, navegadores web. Nuestro objetivo es proporcionar una extensa lista de recursos útiles y accesibles para desarrolladores, entusiastas de la tecnología y usuarios en general.
+# Programas: Descripción 
 
 ## Contenidos del Repositorio
 
@@ -131,6 +103,36 @@ Implementar tu sitio web nunca ha sido tan fácil. Con nuestras detalladas guía
 
 - **Scripts de Instalación:** Automatización de la instalación de software y configuración de sistemas.
 - **Automatización de Tareas:** Scripts para simplificar y agilizar procesos repetitivos.
+
+## Tecnologías Multiplataforma
+
+En un mundo de tecnología, contar con herramientas es crucial. La herramienta definitiva que cambiará la forma en que interactúas con la tecnología y programas: es la solución integral para todas tus necesidades de tecnología, desarrollo y web.
+
+- Diseño responsivo: el sitio web se ve y se comporta bien en pantallas de todos los tamaños.
+- Rápido: solo carga lo necesario para que funcione.
+- Adaptativo: soporta el modo oscuro en la mayoría de los sistemas operativos por defecto (escritorio y móvil).
+- Atractivo: tiene un diseño agradable que es tanto accesible como visualmente placentero.
+
+TL;DR: Tutoriales para scripts, proyectos personalizables de programas, herramientas y sitios web.
+
+Una plataforma completa que integra una vasta gama de funcionalidades diseñadas para facilitar y potenciar tu trabajo.
+
+### Facilita tu Desarrollo y Optimiza tu Tiempo
+
+Este programa está diseñado pensando en la compatibilidad y la personalización. Con soporte para Windows, Linux, Android, iOS, Mac y todos los navegadores modernos, puedes estar seguro de que tu sitio web funcionará perfectamente en cualquier plataforma. Además, la estructura del proyecto y las guías de personalización te permiten adaptar cada aspecto del sitio a tus necesidades específicas.
+
+### Implementación Sencilla en GitHub Pages
+
+Implementar tu sitio web nunca ha sido tan fácil. Con nuestras detalladas guías paso a paso, podrás desplegar tu proyecto en GitHub Pages en cuestión de minutos. Ya sea que prefieras un método sencillo o una implementación más avanzada utilizando GitHub Actions, tenemos todo cubierto.
+
+## Website
+- [Kibzai: Programas - Github Pages Website](https://kibzai.github.io/Programas/): Public Site.
+- [Programas: Repository - Github Source Code](https://github.com/Kibzai/Programas/): Public Repository.
+
+
+# Repositorio de Tecnologías Multiplataforma
+
+¡Bienvenido al repositorio de Tecnologías Multiplataforma! Este espacio está dedicado a la recopilación y organización de programas, herramientas, inventos, experimentos, configuraciones, listas de aplicaciones, protocolos, sitios web, scripts y muchas otras tecnologías compatibles con Windows, Linux, Android, iOS, Mac y, sobre todo, navegadores web. Nuestro objetivo es proporcionar una extensa lista de recursos útiles y accesibles para desarrolladores, entusiastas de la tecnología y usuarios en general.
 
 ## Cómo Utilizar Este Repositorio
 
