@@ -2,6 +2,7 @@
   {% for tool in site.tools %}
   <li>
     <a href="{{ tool.url | relative_url }}">{{ tool.title }}</a>
+    <p class="tool-meta">{{ tool.description }}</p>
     <p class="tool-meta">{{ tool.date | date: "%B %d, %Y" }}</p>
   </li>
   {% endfor %}
