@@ -42,7 +42,7 @@ Programas y su web hecho en Jekyll con JavaScript
     - **Recopilación de Datos:** Obtén información detallada sobre el agente de usuario y utiliza estos datos para mejorar la experiencia de tus visitantes.
     - AES-GCM Encryption/Decryption with Password.
     - **Coming Soon**: Password Generator.
-    - **Generador de Imágenes:** Crea imágenes de cover para tus playlists de manera sencilla y rápida.
+    - **Generador de Imágenes:** Crea imágenes de cover para tus playlists de manera sencilla y rápida. [Pallete](https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff)
     - Consola JavaScript interactiva.
 - **Léeme:** Readme: Instrucciones, documentación y tutoriales.
 - **Blog:** Blog con artículos.
