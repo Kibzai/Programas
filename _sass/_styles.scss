@@ -1,26 +1,23 @@
+// Base styles (Reading First)
 /* Base Dark Mode Styles */
 body.dark-mode {
   background-color: #000;
   font-family: 'Courier New', Courier, monospace;
   color: #e0e0e0;
-  margin: 3rem;
+  margin: 0;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
-}
-body pre {
-  background-color: #000;
-  font-family: 'Courier New', Courier, monospace;
-  color: #e0e0e0;
-  margin: 3rem;
-}
-body.dark-mode a {
-  color: #a7d129;
 }
 
 body.dark-mode .content {
   background-color: rgba(#000, 0.85);
-  padding: 2.5em 5em 5em 5em;
 }
+
+body.dark-mode a {
+  color: #a7d129;
+}
+// Lists
 ul{
   padding-left: 0px;
 }
@@ -44,6 +41,13 @@ body.dark-mode pre {
   color: #a7d129;
 }
 
+body pre {
+  background-color: #000;
+  font-family: 'Courier New', Courier, monospace;
+  color: #e0e0e0;
+  margin: 3rem;
+}
+
 /* Code Block Styling */
 body.dark-mode code {
   overflow-x: auto; /* Enables horizontal scrolling for long lines */
@@ -65,20 +69,6 @@ body.dark-mode code {
   cursor: pointer;
   padding: 5px 10px;
   font-size: 0.8em;
-}
-body.dark-mode {
-  background-color: #000;
-  font-family: 'Courier New', Courier, monospace;
-  color: #e0e0e0;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-body.dark-mode a {
-  color: #a7d129;
 }
 /* Copy Button Styling */
 body.dark-mode .btn {
@@ -154,35 +144,6 @@ body.dark-mode footer .btn {
   background-color: #575757;
 }
 
-/* Contenido */
-.content {
-  flex: 1;
-  padding: 20px;
-  margin: 2.5rem;
-}
-
-/* Media Query para Pantallas Pequeñas */
-@media (max-width: #{$mediaQuery}) {
-  .navbar .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .navbar-nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-item {
-    width: 100%;
-  }
-
-  .nav-link {
-    width: 100%;
-    text-align: left;
-  }
-}
 /* Hover Effect for Copy Button */
 .copy-btn:hover {
   background-color: #616f39;
@@ -310,8 +271,71 @@ canvas {
   width: 360px;
 }
 
-/* Media query for smaller screens */
-@media (max-width: #{$mediaQuery}) {
+h1, label {
+  color: #e0e0e0;
+}
+textarea, input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+  cursor: pointer;
+  background-color: #6200ea;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn :hover {
+  background-color: #3700b3;
+}
+.output {
+  margin-top: 20px;
+}
+
+// Queries
+// Mobile and Portrait (Single Media Query)
+@media only screen and (max-width: $breakpoint-mobile), (orientation: portrait) {
+  body {
+    background-color: #e0f7fa;
+    font-size: 14px;
+  }
+  .content {
+    padding: .75em;
+  }
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: left;
+  }
+  
   .container {
     flex-direction: column;
     align-items: center;
@@ -356,39 +380,37 @@ canvas {
     width: 100%;
   }
 }
+// Tablet (Two Media Queries)
+@media only screen and (min-width: $breakpoint-mobile + 1) and (max-width: $breakpoint-tablet) {
+  body {
+    background-color: #b2ebf2;
+    font-size: 16px;
+  }
+  .content {
+    padding: 1em;
+    // column-count: 2;
+  }
+}
 
-h1, label {
-  color: #e0e0e0;
+// Web/Desktop (Three Media Queries)
+@media only screen and (min-width: $breakpoint-tablet + 1) and (max-width: $breakpoint-desktop) {
+  body {
+    background-color: #80deea;
+    font-size: 18px;
+  }
+  .content {
+    padding: 1.5em 3em 3em 3em;
+    // column-count: 3;
+  }
 }
-textarea, input {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #1e1e1e;
-  color: #ffffff;
-  border: 1px solid #333333;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-.btn {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #1e1e1e;
-  color: #ffffff;
-  border: 1px solid #333333;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-.btn {
-  cursor: pointer;
-  background-color: #6200ea;
-  border: none;
-  transition: background-color 0.3s;
-}
-.btn :hover {
-  background-color: #3700b3;
-}
-.output {
-  margin-top: 20px;
+
+@media only screen and (min-width: $breakpoint-desktop + 1) {
+  body {
+    background-color: #4dd0e1;
+    font-size: 20px;
+  }
+  .content {
+    padding: 2.5em 5em 5em 5em;
+    // column-count: 4;
+  }
 }

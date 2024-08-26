@@ -99,9 +99,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	  z1.addEventListener('input', updateCover);
 	  z2.addEventListener('input', updateCover);
 	  z3.addEventListener('input', updateCover);
-	  z1.value = '🌌The';
+	  z1.value = '🌌 The';
 	  z2.value = 'Journey';
-	  z3.value = 'by-Kibzai';
+	  z3.value = 'by-Kib';
 	}
 	if (c1 && c2 && c3) {
 	  c1.addEventListener('input', updateCover);

@@ -117,7 +117,29 @@
   </footer>
 
   <script>
-
+// Device recognition using JavaScript
+function getDeviceType() {
+	const userAgent = navigator.userAgent.toLowerCase();
+	if (userAgent.includes('mobile') || userAgent.includes('iphone') || userAgent.includes('android')) {
+	  return 'mobile';
+	} else if (userAgent.includes('tablet') || userAgent.includes('ipad')) {
+	  return 'tablet';
+	} else {
+	  return 'desktop';
+	}
+  }
+  
+  
+  function applyDeviceSpecificStyles(deviceType) {
+	if (deviceType === 'mobile') {
+	  document.body.style.backgroundColor = '#ffccbc';
+	} else if (deviceType === 'tablet') {
+	  document.body.style.backgroundColor = '#ffab91';
+	} else if (deviceType === 'desktop') {
+	  document.body.style.backgroundColor = '#ff8a65';
+	}
+  }
+  
     // Pass Jekyll variables to JavaScript
     window.siteConfig = {
       genURL: "{{ absolute_url }}{{ site.baseurl }}"
@@ -154,8 +176,11 @@
       }
     }
 
-    window.addEventListener('load', (event) => {
+    window.addEventListener('load', function () {
       checkUser();
+	const deviceType = getDeviceType();
+	document.body.classList.add(deviceType);
+	applyDeviceSpecificStyles(deviceType);
     });
 
     document.addEventListener('DOMContentLoaded', () => {

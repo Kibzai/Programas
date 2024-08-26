@@ -2,7 +2,11 @@
 ---
 // Variables
 $absoluteUrl: "{{ absolute_url }}{{ site.baseurl }}";
-$mediaQuery:  '720px';
+// SCSS Media Queries
+// Variables for breakpoints
+$breakpoint-mobile: 480px; // Mobile devices
+$breakpoint-tablet: 768px; // Tablets
+$breakpoint-desktop: 1024px; // Desktops
 
 // Importar los estilos desde la carpeta _sass
 @import "styles";

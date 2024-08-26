@@ -83,6 +83,10 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Tor Browser](https://www.torproject.org/): Navegador enfocado en la privacidad y el anonimato, ideal para desarrolladores preocupados por la seguridad en línea.
 - [Firefox](https://www.mozilla.org/es-ES/firefox/new/): Navegador web rápido y personalizable, con una fuerte enfoque en la privacidad y seguridad del usuario.
 - [Chrome](https://www.google.com/intl/es/chrome/): Navegador de Google, conocido por su rapidez y eficiencia, ampliamente utilizado para desarrollo web.
+  * Chrome Extensions
+    - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
+    - [ ] Pendiente
+    - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
 - [Edge](https://www.microsoft.com/es-es/edge): El navegador de Microsoft, integrado en Windows, con características para una navegación rápida y segura.
 
 #### Control Remoto
