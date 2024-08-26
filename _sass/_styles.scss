@@ -307,6 +307,47 @@ textarea, input {
   margin-top: 20px;
 }
 
+ul.task-list {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding-left: 0;
+}
+
+ul.task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+ul.task-list input[type="checkbox"] {
+  appearance: none; /* Elimina el estilo por defecto */
+  width: $checkbox-size;
+  height: $checkbox-size;
+  border: 2px solid $primary-color;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  
+  &:checked {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    
+    &::after {
+      content: '✔';
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+    }
+  }
+  
+  &:hover {
+    border-color: darken($primary-color, 10%);
+  }
+}
 // Queries
 // Mobile and Portrait (Single Media Query)
 @media only screen and (max-width: $breakpoint-mobile), (orientation: portrait) {

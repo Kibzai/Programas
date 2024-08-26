@@ -2,7 +2,10 @@
 ---
 // Variables
 $absoluteUrl: "{{ absolute_url }}{{ site.baseurl }}";
-// SCSS Media Queries
+// Colors
+$primary-color: #a7d129;
+$checkbox-size: 20px;
+// View Media Queries
 // Variables for breakpoints
 $breakpoint-mobile: 480px; // Mobile devices
 $breakpoint-tablet: 768px; // Tablets

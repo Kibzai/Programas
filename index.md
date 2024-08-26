@@ -41,6 +41,9 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 
 # Programas
 
+- [ ] Pendiente
+- [x] Terminado
+
 ## Principales
 
 ### Machine Learning
@@ -85,7 +88,6 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Chrome](https://www.google.com/intl/es/chrome/): Navegador de Google, conocido por su rapidez y eficiencia, ampliamente utilizado para desarrollo web.
   * Chrome Extensions
     - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
-    - [ ] Pendiente
     - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
 - [Edge](https://www.microsoft.com/es-es/edge): El navegador de Microsoft, integrado en Windows, con características para una navegación rápida y segura.
 
