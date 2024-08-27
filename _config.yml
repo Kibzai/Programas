@@ -27,7 +27,9 @@ gist:
   noscript: false      # Allows Gists to work without JavaScript
 
 # Configuración de Markdown
+markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
 

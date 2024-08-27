@@ -1,20 +1,6 @@
 <div>
   <div class="two-column">
     <div class="column">
-      <h2>Tags</h2>
-      <ul>
-        {% for tag in page.tags %}
-        <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="column">
-      <h2>Author</h2>
-      <p>{{ page.author.name }} - {{ page.author.email }}</p>
-    </div>
-  </div>
-  <div class="two-column">
-<!--     <div class="column">
       <h2>Nested Data</h2>
       <ul>
         {% for key in page.nested_data %}
@@ -25,7 +11,7 @@
     <p>Valor-Imagen: {{ key }}{{ page.nested_data[key] | append: '.jpg' }}</p>
 {% endfor %}  
       </ul>
-    </div> -->
+    </div>
     <div class="column">
       <h2>Array of Hashes</h2>
       <ul>

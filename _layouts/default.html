@@ -74,15 +74,13 @@
 
 <body class="dark-mode{% if page.class %} {{ page.class }}{% endif %}">
   {% include nav.html %}
+  <main class="site-content">
+    
   <!-- Page Extra Cover: cover.html -->
   {% if page.class == "extra-cover" %}
-  {% include cover.html %}
+    {% include cover.html %}
   {% endif %}
   <div class="content">
-<!--
-    <h1><a href="{{ '/' | relative_url }}">Kib</a> - {{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-    -->
     <!-- INICIO: CONTENT -->
     {{ content }}
     <!-- FINAL: CONTENT -->
@@ -109,11 +107,32 @@
     {% include blog.html %}
     {% endif %}
   </div>
-  <footer>
+    
+  <div class="two-column">
+    <div class="column">
+      <h2>Author</h2>
+      <p>{{ page.author.name }} - {{ page.author.email }}</p>
+    </div>
+    <div class="column">
+    <h1>Título de la web: {{ page.title }}</h1>
+    <h3>{{ page.description }}</h3>
+    <p>{{ page.longDescription }}</p>
+      <h2>Tags</h2>
+      <ul>
+        {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
     <button onclick="login()" class="btn" id="admin-log">Iniciar Sesión</button><br>
     <button id="install-btn" class="btn" style="display: none;">Instalar Aplicación</button><br>
     <button onclick="openFullscreen()" class="btn">Pantalla Completa</button><br>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </div>
   </footer>
 
   <script>
@@ -132,11 +151,11 @@ function getDeviceType() {
   
   function applyDeviceSpecificStyles(deviceType) {
 	if (deviceType === 'mobile') {
-	  document.body.style.backgroundColor = '#ffccbc';
+	  document.body.style.backgroundColor = '#000';
 	} else if (deviceType === 'tablet') {
-	  document.body.style.backgroundColor = '#ffab91';
+	  document.body.style.backgroundColor = '#111';
 	} else if (deviceType === 'desktop') {
-	  document.body.style.backgroundColor = '#ff8a65';
+	  document.body.style.backgroundColor = '#222';
 	}
   }
   

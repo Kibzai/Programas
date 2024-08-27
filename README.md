@@ -2,7 +2,7 @@
 layout: default
 title: ¡Léeme!
 description: Tutoriales de cómo comenzar tus propios proyectos.
-longDescription: 
+longDescription: Herramientas, listas de programas, tutoriales y más ayuda de cómo comenzar tus propios proyectos
 date: 2024-08-1
 type: site-info
 permalink: /readme/
