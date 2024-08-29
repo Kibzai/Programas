@@ -28,14 +28,36 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 
 ## Principales Herramientas
 
-### WWW 
+### Programar
+- [Git](https://git-scm.com/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
+- [Git for Windows](https://gitforwindows.org/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
+Conectar
+- [Solar Putty](https://www.solarwinds.com/free-tools/solar-putty)
+- [VNC Viewer](https://www.realvnc.com/es/connect/download/viewer/): Aplicación para acceder y controlar computadoras de forma remota a través del protocolo VNC.
+Escribir
+- [Visual Studio Code](https://code.visualstudio.com/): Editor de código fuente desarrollado por Microsoft, con soporte para múltiples lenguajes y extensiones.
+- [Obsidian](https://obsidian.md/): Aplicación de toma de notas y gestión de conocimiento, basada en archivos markdown y enlaces internos.
+- [Notion](https://www.notion.so/): Herramienta para la organización de proyectos, notas y bases de datos, útil para la gestión del conocimiento y la colaboración en equipo.
+- [Notepad++](https://notepad-plus-plus.org/): Editor de texto y código fuente con características como resaltado de sintaxis y plegado de código.
+- [Atom](https://github.com/atom/atom/releases/tag/v1.60.0): Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
+- [Zed: Code editor with GPU](https://zed.dev/) - https://github.com/zed-industries/zed
+- [Sublime Text](https://www.sublimetext.com/): Un editor de texto sofisticado para código, marcado y prosa, con múltiples características para mejorar la productividad en HTML y otros lenguajes.
+---
+- [GitHub Desktop](https://desktop.github.com/): Interfaz gráfica para gestionar repositorios de Git, simplifica el proceso de colaboración en proyectos de GitHub.
+- [WinMerge](https://winmerge.org/): Programa para comparar y fusionar archivos y directorios, útil para identificar cambios en el código fuente.
+
+### Machine Learning
+
+- [Chat GPT](https://chat.openai.com): Modelo de Lenguaje Gratuito de Aprendizaje Automático.
+
+### WWW
+
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
 - [DuckDuckGo](https://www.duckduckgo.com): Un motor de búsqueda que prioriza la privacidad de los usuarios, no rastrea ni almacena información personal de las búsquedas.
 - [Stack Overflow](https://stackoverflow.com): Una comunidad de programadores donde puedes hacer preguntas y encontrar respuestas a problemas de codificación. 
 - [Google](https://www.google.com): Google es una herramienta esencial para cualquier programador. Los principiantes pueden usarlo para buscar tutoriales de programación, recursos, foros y respuestas a problemas de codificación específicos.
-
 - https://app.getpocket.com/
 - https://my.bible.com/moments
 - https://dashboard.twitch.tv/
@@ -48,36 +70,33 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - https://multistre.am
 - https://www.speechchat.com/
 
-### Programar
-- [Visual Studio Code](https://code.visualstudio.com/): Editor de código fuente desarrollado por Microsoft, con soporte para múltiples lenguajes y extensiones.
 
-### Machine Learning
+#### Control Remoto
 
-- [Chat GPT](https://chat.openai.com): Modelo de Lenguaje de Aprendizaje Automático.
+- [Parsec](https://parsec.app/): Software para acceso remoto y juegos en la nube, permite a los desarrolladores colaborar y compartir su escritorio de manera eficiente.
+- [Chrome Remote Desktop](https://remotedesktop.google.com/): Solución de acceso remoto de Google, facilita la colaboración y el acceso a computadoras de forma remota.
+- [TeamViewer](https://www.teamviewer.com/es/): Software de control remoto y reuniones en línea, útil para soporte técnico y colaboración a distancia.: Herramientas esenciales para desarrolladores, permiten interactuar con el sistema operativo y ejecutar comandos.
 
-## Programas
+### Programas
 
-- [Git](https://git-scm.com/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
-- [Git for Windows](https://gitforwindows.org/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
-- [GitHub Desktop](https://desktop.github.com/): Interfaz gráfica para gestionar repositorios de Git, simplifica el proceso de colaboración en proyectos de GitHub.
-- [Universal ADB Drivers](https://adb.clockworkmod.com/): Windows Drivers for Android Debug Bridge.
-- [SDI](https://sdi-tool.org/download/): Install missing drivers and update old drivers.
-- [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards): Utilidad para overclocking de tarjetas gráficas, permitiendo mejorar el rendimiento de los juegos y aplicaciones gráficas.
-- [KMS](https://kmspico.io/): KMS Pico.
-- [7-Zip](https://www.7-zip.org/): Software de archivado de ficheros con un alto ratio de compresión, compatible con varios formatos de archivo.
-- [VirtualBox](https://www.virtualbox.org/): Software de virtualización para ejecutar múltiples sistemas operativos de manera simultánea en un mismo hardware.
 - [OnionShare](https://onionshare.org/): Herramienta de código abierto para compartir archivos de manera segura y anónima a través de la red Tor.
-- [qBittorrent](https://www.qbittorrent.org/): Cliente de torrent de código abierto, ligero y fácil de usar.
-- [VLC](https://www.videolan.org/vlc/index.es.html): Reproductor multimedia de código abierto, compatible con múltiples formatos de audio y video.
-- [WirelessKeyView](https://www.nirsoft.net/utils/wireless_key.html): Aplicación para recuperar las contraseñas de redes Wi-Fi almacenadas en el sistema operativo.
-- [WinDirStat](https://windirstat.net/): Herramienta para visualizar el uso del espacio en disco, mostrando los archivos y directorios que ocupan más espacio.
+- [KMS](https://kmspico.io/): KMS Pico.
 - [EasyBCD](https://neosmart.net/EasyBCD/): Herramienta para modificar y gestionar el arranque de varios sistemas operativos en un mismo equipo.
+- [SDI](https://sdi-tool.org/download/): Install missing drivers and update old drivers.
+- [7-Zip](https://www.7-zip.org/): Software de archivado de ficheros con un alto ratio de compresión, compatible con varios formatos de archivo.
+- [Universal ADB Drivers](https://adb.clockworkmod.com/): Windows Drivers for Android Debug Bridge.
+- [WirelessKeyView](https://www.nirsoft.net/utils/wireless_key.html): Aplicación para recuperar las contraseñas de redes Wi-Fi almacenadas en el sistema operativo.
+---
+- [qBittorrent](https://www.qbittorrent.org/): Cliente de torrent de código abierto, ligero y fácil de usar.
 - [WinCDEmu](https://wincdemu.sysprogs.org/): Programa para montar imágenes de disco como CD/DVD virtuales en Windows.
+- [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards): Utilidad para overclocking de tarjetas gráficas, permitiendo mejorar el rendimiento de los juegos y aplicaciones gráficas.
+- [VirtualBox](https://www.virtualbox.org/): Software de virtualización para ejecutar múltiples sistemas operativos de manera simultánea en un mismo hardware.
+- [VLC](https://www.videolan.org/vlc/index.es.html): Reproductor multimedia de código abierto, compatible con múltiples formatos de audio y video.
+- [WinDirStat](https://windirstat.net/): Herramienta para visualizar el uso del espacio en disco, mostrando los archivos y directorios que ocupan más espacio.
 - [cpu-z](https://www.cpuid.com/softwares/cpu-z.html): Computer Stats
 
-#### Conectar
+### Conectar
 
-- [Solar Putty]
 - [Telegram](https://telegram.org): Telegram is a messaging app with numerous programming groups and channels. Beginners can join these to seek advice, collaborate, and stay updated with the latest programming trends.
 - [Whatsapp](https://www.whatsapp.com/): Aplicación de mensajería popular, útil para comunicarse con equipos de desarrollo y mantener el contacto con otros programadores.
 - [Discord](https://discord.com/): Plataforma de comunicación por voz, texto y video, ampliamente utilizada por comunidades de desarrolladores y jugadores.
@@ -90,24 +109,10 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Tor Browser](https://www.torproject.org/): Navegador enfocado en la privacidad y el anonimato, ideal para desarrolladores preocupados por la seguridad en línea.
 - [Firefox](https://www.mozilla.org/es-ES/firefox/new/): Navegador web rápido y personalizable, con una fuerte enfoque en la privacidad y seguridad del usuario.
 - [Chrome](https://www.google.com/intl/es/chrome/): Navegador de Google, conocido por su rapidez y eficiencia, ampliamente utilizado para desarrollo web.
-  * Chrome Extensions
-    - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
-    - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
+- Chrome Extensions>
+  - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
+  - [Calendar Dark Mode](https://chromewebstore.google.com/detail/calendar-dark-mode/djohocjcheabcpjfaokeancojipglfbe)
 - [Edge](https://www.microsoft.com/es-es/edge): El navegador de Microsoft, integrado en Windows, con características para una navegación rápida y segura.
-
-#### Control Remoto
-
-- [Parsec](https://parsec.app/): Software para acceso remoto y juegos en la nube, permite a los desarrolladores colaborar y compartir su escritorio de manera eficiente.
-- [Chrome Remote Desktop](https://remotedesktop.google.com/): Solución de acceso remoto de Google, facilita la colaboración y el acceso a computadoras de forma remota.
-- [TeamViewer](https://www.teamviewer.com/es/): Software de control remoto y reuniones en línea, útil para soporte técnico y colaboración a distancia.: Herramientas esenciales para desarrolladores, permiten interactuar con el sistema operativo y ejecutar comandos.
-
-#### Desarrollo
-
-- [Obsidian](https://obsidian.md/): Aplicación de toma de notas y gestión de conocimiento, basada en archivos markdown y enlaces internos.
-- [Atom](https://github.com/atom/atom/releases/tag/v1.60.0): Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
-- [Sublime Text](https://www.sublimetext.com/): Un editor de texto sofisticado para código, marcado y prosa, con múltiples características para mejorar la productividad en HTML y otros lenguajes.
-- [Notepad++](https://notepad-plus-plus.org/): Editor de texto y código fuente con características como resaltado de sintaxis y plegado de código.
-- [WinMerge](https://winmerge.org/): Programa para comparar y fusionar archivos y directorios, útil para identificar cambios en el código fuente.
 
 ### Aplicaciones
 
@@ -121,7 +126,6 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [CCleaner](https://www.ccleaner.com/es-es): Herramienta para limpiar y optimizar el sistema operativo, ayudando a mejorar el rendimiento del ordenador.
 - [MEmu](https://www.memuplay.com/es/): Emulador de Android para Windows, permite ejecutar aplicaciones y juegos de Android en el PC.
 - [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/): Software oficial para formatear tarjetas SD y SDHC.
-- [VNC Viewer](https://www.realvnc.com/es/connect/download/viewer/): Aplicación para acceder y controlar computadoras de forma remota a través del protocolo VNC.
 - [ClamAV](https://www.clamav.net/): Antivirus de código abierto diseñado para detectar troyanos, virus, malware y otras amenazas maliciosas.
 - [Windows Subsystem for Linux Update](https://docs.microsoft.com/en-us/windows/wsl/install): Actualización para ejecutar un subsistema de Linux en Windows, permitiendo usar herramientas de Linux en el entorno de Windows.
 - [Steam](https://store.steampowered.com/?l=spanish): Plataforma de distribución digital de videojuegos, ofrece una amplia biblioteca de juegos y herramientas para desarrolladores.
@@ -147,7 +151,6 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Handbrake](https://handbrake.fr/): Herramienta para convertir video de casi cualquier formato a una selección de códecs modernos y ampliamente compatibles.
 - [4k VideoDownloader](https://www.4kdownload.com/products/product-videodownloader): Programa para descargar videos, listas de reproducción, canales y subtítulos de YouTube, Facebook, Vimeo y otros sitios de video en alta calidad.
 - [Office](https://www.microsoft.com/es-es/microsoft-365/get-started-with-office-2019): Suite de productividad de Microsoft, incluye Word, Excel, PowerPoint, entre otros.
-- [Notion](https://www.notion.so/): Herramienta para la organización de proyectos, notas y bases de datos, útil para la gestión del conocimiento y la colaboración en equipo.
 - [Trello](https://trello.com/): Aplicación de gestión de proyectos basada en el sistema Kanban, facilita la organización de tareas y proyectos.
 - [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck): Lenguaje Brainfuck.
   - [dcode Brainfuck-language](https://www.dcode.fr/brainfuck-language): Web decoder para Lenguaje Brainfuck.
