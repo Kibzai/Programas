@@ -73,6 +73,8 @@ Programas y su web hecho en Jekyll con JavaScript
 
 ## Contenidos del Repositorio
 
+Protocolos para programar en Windows, Android, Linux & IOS, Mac.
+
 ### Programas y Herramientas
 
 - **Aplicaciones de Productividad:** Software para mejorar la eficiencia y organización personal.

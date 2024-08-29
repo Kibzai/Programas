@@ -13,7 +13,22 @@ author:
 ---
 # ¡Configuraciones!
 
-### Principales Herramientas
+Todo lo necesario para programar nuevas funciones.
+
+## Protocolos
+
+- [ ] Pendiente
+- [x] Terminado
+
+Más información, ayuda y protocolos para crear, hackear y divertirse:
+
+- [Léeme](readme/): Tutoriales.
+- [Fun](diversion/): Creación y diversión.
+- [Ayuda](ayuda/): Ayuda Universal
+
+## Principales Herramientas
+
+### WWW 
 - [GitHub](https://github.com): Plataforma de desarrollo colaborativo para alojar y revisar código, gestionar proyectos y construir software junto a otros desarrolladores.
 - [Wikipedia](https://www.wikipedia.org): Wikipedia es un recurso valioso para comprender conceptos, historia y terminología de programación. Es un excelente punto de partida para explorar varios aspectos de la ciencia de la computación.
 - [Internet Archive](https://archive.org): Una biblioteca digital de sitios web, música, libros y más. El "Wayback Machine" permite ver cómo eran los sitios web en el pasado.
@@ -33,22 +48,14 @@ author:
 - https://multistre.am
 - https://www.speechchat.com/
 
-Más información, ayuda y protocolos para crear, hackear y divertirse:
-
-- [Léeme](readme/): Tutoriales.
-- [Fun](diversion/): Creación y diversión.
-- [Ayuda](ayuda/): Ayuda Universal
-
-# Programas
-
-- [ ] Pendiente
-- [x] Terminado
-
-## Principales
+### Programar
+- [Visual Studio Code](https://code.visualstudio.com/): Editor de código fuente desarrollado por Microsoft, con soporte para múltiples lenguajes y extensiones.
 
 ### Machine Learning
 
 - [Chat GPT](https://chat.openai.com): Modelo de Lenguaje de Aprendizaje Automático.
+
+## Programas
 
 - [Git](https://git-scm.com/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
 - [Git for Windows](https://gitforwindows.org/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
@@ -59,7 +66,6 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [KMS](https://kmspico.io/): KMS Pico.
 - [7-Zip](https://www.7-zip.org/): Software de archivado de ficheros con un alto ratio de compresión, compatible con varios formatos de archivo.
 - [VirtualBox](https://www.virtualbox.org/): Software de virtualización para ejecutar múltiples sistemas operativos de manera simultánea en un mismo hardware.
-- [Visual Studio Code](https://code.visualstudio.com/): Editor de código fuente desarrollado por Microsoft, con soporte para múltiples lenguajes y extensiones.
 - [OnionShare](https://onionshare.org/): Herramienta de código abierto para compartir archivos de manera segura y anónima a través de la red Tor.
 - [qBittorrent](https://www.qbittorrent.org/): Cliente de torrent de código abierto, ligero y fácil de usar.
 - [VLC](https://www.videolan.org/vlc/index.es.html): Reproductor multimedia de código abierto, compatible con múltiples formatos de audio y video.
@@ -71,14 +77,12 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 
 #### Conectar
 
+- [Solar Putty]
 - [Telegram](https://telegram.org): Telegram is a messaging app with numerous programming groups and channels. Beginners can join these to seek advice, collaborate, and stay updated with the latest programming trends.
 - [Whatsapp](https://www.whatsapp.com/): Aplicación de mensajería popular, útil para comunicarse con equipos de desarrollo y mantener el contacto con otros programadores.
 - [Discord](https://discord.com/): Plataforma de comunicación por voz, texto y video, ampliamente utilizada por comunidades de desarrolladores y jugadores.
  - https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 - [Messenger](https://www.messenger.com/): Herramienta de mensajería de Facebook, conveniente para coordinar proyectos en grupos y mantenerse en contacto con colegas.
-- [Slack](https://slack.com/): Plataforma de comunicación para equipos de trabajo, que facilita la organización de proyectos y la colaboración en tiempo real.
-- [Zoom](https://zoom.us/): Aplicación para videollamadas y reuniones en línea, esencial para equipos de trabajo remotos y presentaciones en línea.
-- [Webex](https://www.webex.com/): Herramienta de videoconferencia para colaboración empresarial, útil para reuniones en línea y trabajo remoto.
 
 #### Buscadores, Exploradores
 
@@ -104,8 +108,15 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Sublime Text](https://www.sublimetext.com/): Un editor de texto sofisticado para código, marcado y prosa, con múltiples características para mejorar la productividad en HTML y otros lenguajes.
 - [Notepad++](https://notepad-plus-plus.org/): Editor de texto y código fuente con características como resaltado de sintaxis y plegado de código.
 - [WinMerge](https://winmerge.org/): Programa para comparar y fusionar archivos y directorios, útil para identificar cambios en el código fuente.
+
+### Aplicaciones
+
 - [qFlipper](https://github.com/flipperdevices/qFlipper): Software para interactuar con el dispositivo Flipper Zero, utilizado para tareas de hardware y hacking.
 - [FlipperLab](https://lab.flipper.net/): Web platform for your Flipper.
+- [Slack](https://slack.com/): Plataforma de comunicación para equipos de trabajo, que facilita la organización de proyectos y la colaboración en tiempo real.
+- [Zoom](https://zoom.us/): Aplicación para videollamadas y reuniones en línea, esencial para equipos de trabajo remotos y presentaciones en línea.
+- [Webex](https://www.webex.com/): Herramienta de videoconferencia para colaboración empresarial, útil para reuniones en línea y trabajo remoto.
+- Scrcpy: Andorid Remote via USB Debugging
 - [Vysor](https://www.vysor.io/): Aplicación para controlar dispositivos Android desde el ordenador, útil para desarrolladores de apps móviles.
 - [CCleaner](https://www.ccleaner.com/es-es): Herramienta para limpiar y optimizar el sistema operativo, ayudando a mejorar el rendimiento del ordenador.
 - [MEmu](https://www.memuplay.com/es/): Emulador de Android para Windows, permite ejecutar aplicaciones y juegos de Android en el PC.
