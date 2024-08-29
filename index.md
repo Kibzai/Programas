@@ -17,8 +17,9 @@ Todo lo necesario para programar nuevas funciones.
 
 ### Protocolos
 
-- [ ] Pendiente
-- [x] Terminado
+- [x] Pendientes
+- [x] Setup
+- [] Terminado
 
 Más información, ayuda y protocolos para crear, hackear y divertirse:
 
