@@ -6,7 +6,3 @@ type:
 cover: cover-2
 class: 
 ---
-
-# Mi Primer Post
-
-¡Hola, mundo! Presento la Herramienta Definitiva para Desarrolladores:

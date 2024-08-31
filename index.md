@@ -11,15 +11,27 @@ author:
   name: Kib
   email: kib@kibsaim.life
 ---
-# ¡Configuraciones!
+# ¡Protocolos!
 
-Todo lo necesario para programar nuevas funciones.
+Todo lo necesario para programar nuevas funciones, inventar.
 
-### Protocolos
+### Oneliner: Scripts
+- **Correr un `Bash|sh|shell`** en la raíz del proyecto:
+```sh
+wget -O script.sh https://kibzai.github.io/Programas/scripts/programar-web.txt
+chmod +x script.sh
+sh script.sh
+```
+<div>
+  <p>https://kibzai.github.io/Programas/scripts/programar-web.txt</p>
+  <iframe src="{{ '/scripts/programar-web.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
+</div>
+
+### Configuraciones
 
 - [x] Pendientes
 - [x] Setup
-- [] Terminado
+- [ ] Terminado
 
 Más información, ayuda y protocolos para crear, hackear y divertirse:
 

@@ -145,21 +145,12 @@ Implementar tu sitio web nunca ha sido tan fácil. Con nuestras detalladas guía
 
 <img src="{{ '/assets/img/cover-4.jpg' | relative_url }}" alt="Captura de pantalla" style="max-width: 300px"/>
 
-# Scripts
-- **Correr un `Bash|sh|shell`** en la raíz del proyecto:
-```sh
-wget -O script.sh https://kibzai.github.io/Programas/scripts/programar-web.txt
-chmod +x script.sh
-sh script.sh
-```
-<div>
-  <iframe src="{{ '/scripts/programar-web.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
-</div>
-
 ```bash
 # ``` Cómo hacer links en Github Pages (README.md) ```
 # [URL-Readme](https://kibzai.github.io/Programas/readme/)
 # Símbolos: [(<"@http(s)://\\">)] `%20` para escribir espacios en direcciones.
+
+ping -n 4 kibzai.github.io
 ```
 
 ## Características Principales
@@ -199,10 +190,13 @@ PowerShell
 ``` powershell
 Start-Process "https://kibzai.github.io/Programas/"
 ```
-## Help
+# Install
+## Help 
 Ping? Internet?
 ``` bash
 ping -n 4 kibzai.github.io
+bundle exec jekyll clean
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
 ```
 Check?
 ``` bash

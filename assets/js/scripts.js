@@ -56,3 +56,20 @@ function openFullscreen() {
 		elem.msRequestFullscreen();
 	}
 }
+function toggleMenu() {
+    const menu = document.getElementById('main-menu');
+    const sidebar = document.getElementById('sidebar');
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+
+    if (window.innerWidth >= 768) {
+        if (sidebar.style.display === 'block') {
+            sidebar.style.display = 'none';
+        } else {
+            sidebar.style.display = 'block';
+        }
+    }
+}
