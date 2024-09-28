@@ -27,6 +27,14 @@ sh script.sh
   <iframe src="{{ '/scripts/programar-web.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
 </div>
 
+
+<div>
+<iframe src="./serve.bat" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
+<video width"320" height="240" controls loop="" autoplay="">
+    <source src="https://github.com/Kibzai/Programas/raw/refs/heads/main/video.mp4">
+</video>
+</div>
+
 ### Configuraciones
 
 - [x] Pendientes
@@ -40,6 +48,16 @@ Más información, ayuda y protocolos para crear, hackear y divertirse:
 - [Ayuda](ayuda/): Ayuda Universal
 
 ## Principales Herramientas
+
+``` bash
+ssh-keygen -t ed25519 -C "kibza777@gmail.com"
+ssh-copy-id user@linode_ip_address
+
+ssh-copy-id root@139.144.190.99
+
+ssh root@139.144.190.99
+
+```
 
 ### Programar
 - [Git](https://git-scm.com/): Sistema de control de versiones distribuido, esencial para la gestión de código fuente en proyectos de desarrollo.
