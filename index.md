@@ -29,8 +29,7 @@ sh script.sh
 
 
 <div>
-<video width"320" height="240" controls loop="" autoplay="">
-    <source src="https://github.com/Kibzai/Programas/raw/refs/heads/main/video.mp4">
+<video width"320" height="240" controls loop="" autoplay="" src="https://github.com/Kibzai/Programas/raw/refs/heads/main/video.mp4">
 </video>
 </div>
 
