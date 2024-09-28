@@ -27,6 +27,12 @@ sh script.sh
   <iframe src="{{ '/scripts/programar-web.txt' | relative_url }}" style="width:100%; min-height:50px; border:none; background-color: chartreuse; color-scheme: normal"></iframe>
 </div>
 
+
+
+https://github.com/user-attachments/assets/d998d3c2-f5c2-4fda-9bde-66f267d56470
+
+
+
 ![](https://github.com/Kibzai/Programas/raw/refs/heads/main/video.mp4)
 </video>
 </div>
